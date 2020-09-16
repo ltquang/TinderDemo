@@ -6,6 +6,7 @@ target 'TinderDemo' do
   use_frameworks!
 
   # Pods for TinderDemo
+  pod 'TinderSwipeView'
 
   target 'TinderDemoTests' do
     inherit! :search_paths
