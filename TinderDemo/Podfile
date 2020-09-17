@@ -7,6 +7,7 @@ target 'TinderDemo' do
 
   # Pods for TinderDemo
   pod 'TinderSwipeView'
+  pod 'Alamofire'
 
   target 'TinderDemoTests' do
     inherit! :search_paths
