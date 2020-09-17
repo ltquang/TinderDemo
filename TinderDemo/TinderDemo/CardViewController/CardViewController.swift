@@ -11,4 +11,11 @@ import UIKit
 
 class CardViewController: UITabBarController {
     var userModel: UserModel!
+    override func viewDidLoad() {
+        viewControllers!.forEach {
+            if $0.isKind(of: DetailBaseController.self) {
+                ($0 as! DetailBaseController).userModel = userModel
+            }
+        }
+    }
 }

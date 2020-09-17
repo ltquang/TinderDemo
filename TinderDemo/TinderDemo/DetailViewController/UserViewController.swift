@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-class UserViewController: UIViewController {
+class UserViewController: DetailBaseController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
-        imageView.imageFromUrl(urlString: "https://randomuser.me/api/portraits/men/19.jpg")
+        imageView.imageFromUrl(urlString: userModel.picture)
     }
 }
 
