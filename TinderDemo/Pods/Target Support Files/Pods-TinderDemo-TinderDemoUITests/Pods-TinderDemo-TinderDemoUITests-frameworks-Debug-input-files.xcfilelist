@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/TinderSwipeView/TinderSwipeView.framework
