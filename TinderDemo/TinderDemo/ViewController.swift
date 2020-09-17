@@ -26,7 +26,7 @@ class ViewController: UIViewController {
             model.append(UserModel(uuid: "1",
                                    name: "name",
                                    email: "email",
-                                   dob: "dob",
+                                   dob: "1990-04-17T11:43:53.681Z",
                                    phone: "123-123",
                                    cell: "0987-387",
                                    picture: "https://randomuser.me/api/portraits/women/75.jpg",

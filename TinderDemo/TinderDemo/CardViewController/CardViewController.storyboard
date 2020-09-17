@@ -7,17 +7,42 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Calendar View Controller-->
         <scene sceneID="zKg-9F-zZ5">
             <objects>
-                <viewController id="Wui-tx-Axf" sceneMemberID="viewController">
+                <viewController id="Wui-tx-Axf" customClass="CalendarViewController" customModule="TinderDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KMN-28-KQk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QLd-zC-Pcp" customClass="CalendarView" customModule="KDCalendar">
+                                <rect key="frame" x="0.0" y="145" width="414" height="256"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="a32-Z0-W84"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My birthday is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWo-WZ-JTp">
+                                <rect key="frame" x="153" y="99" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QLd-zC-Pcp" firstAttribute="top" secondItem="NWo-WZ-JTp" secondAttribute="bottom" constant="25" id="CSb-9S-kZp"/>
+                            <constraint firstItem="iLh-GM-1Zr" firstAttribute="trailing" secondItem="QLd-zC-Pcp" secondAttribute="trailing" id="bgk-Oc-XPY"/>
+                            <constraint firstItem="QLd-zC-Pcp" firstAttribute="leading" secondItem="iLh-GM-1Zr" secondAttribute="leading" id="gJj-3T-PNG"/>
+                            <constraint firstItem="NWo-WZ-JTp" firstAttribute="centerX" secondItem="KMN-28-KQk" secondAttribute="centerX" id="utz-iW-5NS"/>
+                            <constraint firstItem="NWo-WZ-JTp" firstAttribute="top" secondItem="iLh-GM-1Zr" secondAttribute="top" constant="55" id="x4J-Jd-Ugi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iLh-GM-1Zr"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="jup-Cv-FzR"/>
+                    <tabBarItem key="tabBarItem" title="" image="icons-calendar" selectedImage="icons-calendar-selected" id="jup-Cv-FzR"/>
+                    <connections>
+                        <outlet property="calendarView" destination="QLd-zC-Pcp" id="HVH-ge-L4I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoB-fz-euS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,6 +154,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icons-calendar" width="30.5" height="30.5"/>
+        <image name="icons-calendar-selected" width="30.5" height="30.5"/>
         <image name="icons-user-male" width="30.5" height="30.5"/>
         <image name="icons-user-selected" width="30.5" height="30.5"/>
     </resources>

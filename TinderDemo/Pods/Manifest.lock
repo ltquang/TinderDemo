@@ -1,20 +1,26 @@
 PODS:
   - Alamofire (5.2.2)
+  - KDCalendar (1.8.9):
+    - KDCalendar/EventManager (= 1.8.9)
+  - KDCalendar/EventManager (1.8.9)
   - TinderSwipeView (1.1.8)
 
 DEPENDENCIES:
   - Alamofire
+  - KDCalendar
   - TinderSwipeView
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - KDCalendar
     - TinderSwipeView
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  KDCalendar: a587bc486b992d82ef94bd04001fce9baf45e518
   TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
 
-PODFILE CHECKSUM: 4294eaf4a495c3d1b5b687d909ac8e0f3b54db0f
+PODFILE CHECKSUM: e59887e632e091b6935b146f437a3ae35fe49537
 
 COCOAPODS: 1.9.3

@@ -7,237 +7,265 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630A542587167A7CEF05366F0D446D7 /* HTTPMethod.swift */; };
-		06A40F45E34C02FE76FA0766380989E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
-		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14D0C03C82E488CF2B776AB2D5B4DBF /* Combine.swift */; };
-		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E447A957582DD37C62382D5518207D /* OperationQueue+Alamofire.swift */; };
-		0BDD054FD77FD6B1C5196A4E645C7F50 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7742A3FDB81E7A4F16DBFD327A8ADE54 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3FA9A150294145EB74D4020821338 /* AFError.swift */; };
-		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB7660EFFA8D7F19FFC258FED1FEB2 /* NetworkReachabilityManager.swift */; };
-		2064ECFC8179F23BAF64563E3539F724 /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3B7C80D51F38070ED55DF761F654E0 /* overlay_skip.png */; };
-		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073FB9F84DA29A226B3C727EDD6975D /* StringEncoding+Alamofire.swift */; };
-		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90C4373E83CE294A62BB635FAE0317E /* Protected.swift */; };
-		266F05FE11B61F5FC6897F897FD27FED /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F64A62ECAB10C217316EBB390E4F1C /* overlay_skip@3x.png */; };
-		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153C5F7B20DB5D4AEC6CB60ED97ECAB1 /* DispatchQueue+Alamofire.swift */; };
-		29D76860C1CECA03C1D29C94C6C6058C /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E0B71F734CA00C25E1AEFFF0DD4E8 /* Pods-TinderDemo-TinderDemoUITests-dummy.m */; };
-		2BEF487C9FC6AEE6F147B9EEF0D54375 /* TinderSwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95645A8ED1732A1F10D18B712E8EB970 /* TinderSwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE39920D59C8444C8CCE4DA0E0A1239 /* SessionDelegate.swift */; };
+		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CA771A8FDB87D669FC66D7AFBB875 /* HTTPMethod.swift */; };
+		0622679275BA9D990957BD7096273A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB730576695AD69BD389F52E4473B9D3 /* Combine.swift */; };
+		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AECDE266298E85D337CA8D94AC62F3 /* OperationQueue+Alamofire.swift */; };
+		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E873EC01406B8209024CD2E55CB94 /* AFError.swift */; };
+		1262EDA4718829C99BCACC009116AE99 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A56B8B4438F35F27E68E5483040E9CB8 /* ic_skip@3x.png */; };
+		15B56245B4B221DA46D6490BB2DBCE07 /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1E0B71F734CA00C25E1AEFFF0DD4E8 /* Pods-TinderDemo-TinderDemoUITests-dummy.m */; };
+		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B0722B67FF1EB961E4978E10BD83E /* NetworkReachabilityManager.swift */; };
+		200C954F8B8D72CFDA5F67744DF2FEF7 /* CalendarView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1E5EC9EA2EB8C17119E7CF8FC1298 /* CalendarView+DataSource.swift */; };
+		2064ECFC8179F23BAF64563E3539F724 /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = D649F66CBAF7356C4FCE4494D9757AB8 /* overlay_skip.png */; };
+		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBC8FB14AAB947EE856E1D369E76123 /* StringEncoding+Alamofire.swift */; };
+		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6A2BD3B8304C5E66DC06CC9C54B3E /* Protected.swift */; };
+		26449ABE3798F4063D32C657D4114ED2 /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADFF0174553531A759423AC0EA618F8 /* ic_like@2x.png */; };
+		266F05FE11B61F5FC6897F897FD27FED /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75969D45F6FE4AD34110CBDE12086A77 /* overlay_skip@3x.png */; };
+		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6707C868A09A5FB83D7075726E686A /* DispatchQueue+Alamofire.swift */; };
+		2BEF487C9FC6AEE6F147B9EEF0D54375 /* TinderSwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 778A2B1582E241F283A4AAD341C368B0 /* TinderSwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351D55BE90CACAB0FA365A811225CEA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A1FBD36DB91284A123C38343149926 /* SessionDelegate.swift */; };
+		3F32413FD2F2D30C857511C7ABBF5DE4 /* KDCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2244EAAE9B9C3D355E4F1B8B797FDB /* KDCalendar-dummy.m */; };
+		41CFAD8021D2C70F1C97453A612518FD /* CalendarView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F120AE17925768BE2DEFC71F54727C /* CalendarView+Extensions.swift */; };
 		42992EF1D5D98A7029A6DDA49C7274F4 /* TinderSwipeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E6D4F9931F54A217DA89C62EAAE1FAA /* TinderSwipeView.bundle */; };
-		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFFA6EBB80643D847E338DB4166596 /* MultipartFormData.swift */; };
-		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF330202115B627454E4E0CF7C90D63 /* ServerTrustEvaluation.swift */; };
-		47FDCEE9A7B04FC6BFD73E33E4753A24 /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDBABBE5907BC4B777598F635DA6400E /* ic_skip@2x.png */; };
-		4888443159CFAC6B7CF30D40CEEEE802 /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9455F111EF09F27A856C2A1551DD4874 /* overlay_like@3x.png */; };
+		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A72713828415B0E00AA3D6A0E77E30 /* MultipartFormData.swift */; };
+		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F49283AD16618775380F6EEFA54E18 /* ServerTrustEvaluation.swift */; };
 		492C967D58E496EC52B29B21B49D81A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
-		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532CC5B1521B0CD5D1F0F10568E9241D /* ParameterEncoder.swift */; };
-		50F4B6C793807FC3BE11CDCB06EBFBC3 /* Pods-TinderDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FD5D3625175F7846AF84E0CC0A1951 /* Pods-TinderDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C4411E6F0073B1C912E56D45F9B1D /* ParameterEncoder.swift */; };
 		5770F70EAA927FAB62608C929D134E87 /* Pods-TinderDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B00728E00E15AD5FE4DA331C56EE5F72 /* Pods-TinderDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58D0229AB96B5B4C4FAF00EC87E5A51E /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7848CA28837C9B20C81FE9B223DF29 /* overlay_like.png */; };
-		62F97C8F1ABB30A074FA1DBFF88CB394 /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = BA7848CA28837C9B20C81FE9B223DF29 /* overlay_like.png */; };
-		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF55FA75FA02C3E46465BC23F66774 /* EventMonitor.swift */; };
-		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C250EB45857CC840F5CDA93B2EFE86 /* RedirectHandler.swift */; };
-		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9065955232CB773C4FAD8419AA7A4DF /* Result+Alamofire.swift */; };
-		687EF3B91C74DC981524F1E27931B961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
-		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960C815214237A64F81C4FAC06FCB5B /* Session.swift */; };
-		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E194BCBDFFBD9469F60BC23DD6C9A55 /* RequestTaskMap.swift */; };
-		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04AC6B81E95A0D3B7B0AA9BA2D61849 /* RequestInterceptor.swift */; };
-		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B46613ADE97F55AD86430FB5D1FDC /* AlamofireExtended.swift */; };
+		5AE6447F47EA30E089ED3796CCDCECF2 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7742A3FDB81E7A4F16DBFD327A8ADE54 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D9C3B29FA6E5E5E4B5D05A4B8F42F09 /* CalendarView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCF7A08B01E972765A7024E6921BCF /* CalendarView+Style.swift */; };
+		62AF872D9B16C9715670A089EEF32DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
+		62D585D67B3934FF26F22F19578CADB6 /* CalendarView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3325193C62B8261DCA91127B2B093 /* CalendarView+Delegate.swift */; };
+		62F97C8F1ABB30A074FA1DBFF88CB394 /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BC224DB2480489127F773E7517292E /* overlay_like.png */; };
+		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65691C2B7E685B566B3E6F4525B7ADCE /* EventMonitor.swift */; };
+		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DE2B2D45BA1C5B37FFFF8F97A9ECAC /* RedirectHandler.swift */; };
+		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB9A55915E8CD9CD3F7B95C220CD25 /* Result+Alamofire.swift */; };
+		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18198056D8A54B41D056011693365DDF /* Session.swift */; };
+		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DE18C28BD269411E4F06E90AFD4738 /* RequestTaskMap.swift */; };
+		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F441EAADCD11B666AD5C44F1528FC7D /* RequestInterceptor.swift */; };
+		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6829D0582E5298BE5C59526BE259523B /* AlamofireExtended.swift */; };
 		73EBFECF9681C3CC2F9406C49017A6B6 /* Pods-TinderDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E29E34107A3D52FE99AE327C57D330DE /* Pods-TinderDemoTests-dummy.m */; };
-		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E95D3F09A102F8B5C129A0599C346C3 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A9158DEB9CECBEB266C5A37BA0F4DDB /* TinderSwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 603522E5D6BE1C0254A6D3291E588999 /* TinderSwipeView-dummy.m */; };
-		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2491904C9CDD4831692EAF285B2BFC /* Notifications.swift */; };
-		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C160B1504D109A046659690E56ECF /* ResponseSerialization.swift */; };
-		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5949C3167DAF624387B96BC95A15FC07 /* HTTPHeaders.swift */; };
-		9992D39137F387046A5E2C5ED9DDAD30 /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F64A62ECAB10C217316EBB390E4F1C /* overlay_skip@3x.png */; };
-		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1AD02FBDDB763C77515115EEBED8E1 /* URLConvertible+URLRequestConvertible.swift */; };
-		9C02F53390C3E58FFA1D47CA7E54088C /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A36596F319A9BF597167B87FF4FABCD /* ic_like@3x.png */; };
-		9DC2123FA6B3882A1CDC28FC03DCF9D5 /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3B7C80D51F38070ED55DF761F654E0 /* overlay_skip.png */; };
-		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB9F131D8878F3AB2DFEEA54F17F55 /* RetryPolicy.swift */; };
-		A1A5F9C3FEDC90B5234886B070502168 /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9455F111EF09F27A856C2A1551DD4874 /* overlay_like@3x.png */; };
-		A1FDAFC68A9ACCBCEDD5F77DAE82820A /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9901480792A6194AC0A41AD21482AFB5 /* TinderCard.swift */; };
+		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA9418119BF7605D286CD4C2753813D /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E68C5951775453B15FC528CCEA6F62 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB7809940AB6F992BAE4A6F3102AE3 /* CalendarHeaderView.swift */; };
+		830072C58254799461FC3455D17595C6 /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = D649F66CBAF7356C4FCE4494D9757AB8 /* overlay_skip.png */; };
+		845A008B02B0D8E4421D51A175572517 /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D727FECF6CC5B645A7C46530603050 /* ic_skip@2x.png */; };
+		8A9158DEB9CECBEB266C5A37BA0F4DDB /* TinderSwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3509FBCD5F4BA8BF225872CEBC237AA4 /* TinderSwipeView-dummy.m */; };
+		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A667B63654CBF4C66A33A7092D25F3B8 /* Notifications.swift */; };
+		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A6C534B9700E19B2C46E00320C0E3F /* ResponseSerialization.swift */; };
+		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70482B7256498B0DA6D721D001EBC722 /* HTTPHeaders.swift */; };
+		98A56A86BE0A1C7F74E5C8D649E8EEAB /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F3E403CAB943996484ECD3DB1E7C8E /* CalendarDayCell.swift */; };
+		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A982E2B2B739945FF14C2924804D3A9 /* URLConvertible+URLRequestConvertible.swift */; };
+		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72210ECA1BBBA4F9AEA8D74E5D4CF97B /* RetryPolicy.swift */; };
+		A1A5F9C3FEDC90B5234886B070502168 /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22FDCD9B45C18D4E7CA7A7B1A471B36 /* overlay_like@3x.png */; };
+		A1FDAFC68A9ACCBCEDD5F77DAE82820A /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E38AB31613730DE6871D16F26CAEC3 /* TinderCard.swift */; };
 		A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */; };
-		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25007B8DD6CB410BE832B7F7E64C73E5 /* CachedResponseHandler.swift */; };
-		B177CD00988A1B8B11590D87B8B35488 /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A909552279274F2F6652A5B835963E7 /* TinderSwipeView.swift */; };
-		B4CAF264BFD1ED9737E4ED59BA26CCAD /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82105A64260DFA2A6E16316B3A223ABA /* ic_like@2x.png */; };
-		B79281FD0C08C81CF34B56508E05E92A /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A36596F319A9BF597167B87FF4FABCD /* ic_like@3x.png */; };
-		B87D880A8650898FA9D97821C5F58A83 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB86B2F02040DF451E772F9FE1C1D726 /* ic_skip@3x.png */; };
-		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02411F5B11A54DD94B44DF7BADC372A5 /* Response.swift */; };
-		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60805B2DDB37648FF4969CDEC2A94241 /* Alamofire.swift */; };
-		C69A658B09E0EAA94E7E6D358270794D /* Pods-TinderDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57BD1B39C0A6C90CD19E32FDEC3E6E /* Pods-TinderDemo-dummy.m */; };
-		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AC2DA61E5EA2FBAA2FA3AF4D488B00 /* Alamofire-dummy.m */; };
-		CDFD805AD50D66DF041B004BBCB6F421 /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDBABBE5907BC4B777598F635DA6400E /* ic_skip@2x.png */; };
-		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BBF315D2F74963427DC55489E8A9DD /* MultipartUpload.swift */; };
-		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82662913166F38CF32A8797F94FC3D /* ParameterEncoding.swift */; };
-		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33FE44E47B980B20E78DF07DB719A08 /* URLEncodedFormEncoder.swift */; };
-		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E0228FB8FD412B81558B00F6B1716 /* URLRequest+Alamofire.swift */; };
+		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905AF9F5F6755E6F61AEA37B8015311 /* CachedResponseHandler.swift */; };
+		B177CD00988A1B8B11590D87B8B35488 /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B076D6BCF71EDCA952AF10C28103E3 /* TinderSwipeView.swift */; };
+		B1A357717AEB1004662C886BD6F740BA /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BC224DB2480489127F773E7517292E /* overlay_like.png */; };
+		B6A71DD198C3B9E662040DC19672111D /* Pods-TinderDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FD5D3625175F7846AF84E0CC0A1951 /* Pods-TinderDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B79281FD0C08C81CF34B56508E05E92A /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAFC57C549D10E10657A29B8E4FA434 /* ic_like@3x.png */; };
+		B87D880A8650898FA9D97821C5F58A83 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A56B8B4438F35F27E68E5483040E9CB8 /* ic_skip@3x.png */; };
+		BD4D6D994FFE31704F1A47666D66F4E5 /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A22FDCD9B45C18D4E7CA7A7B1A471B36 /* overlay_like@3x.png */; };
+		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C71FB8DE5ACA3D2F36CAEF7A0A7EDF3 /* Response.swift */; };
+		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6292C129004C2F82EE933EF5DFC4F8 /* Alamofire.swift */; };
+		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B819DCE24AE3957BCDF925247E53DD7 /* Alamofire-dummy.m */; };
+		C8CC098B3CF1478B08137AD23E184E9A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7604FD09EE1DA5F60E75B51225DAF8 /* CalendarView.swift */; };
+		CC75080ED0C58C64AA9E0DFDE0471D24 /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75969D45F6FE4AD34110CBDE12086A77 /* overlay_skip@3x.png */; };
+		CDFD805AD50D66DF041B004BBCB6F421 /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D727FECF6CC5B645A7C46530603050 /* ic_skip@2x.png */; };
+		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13653C44CBD88371511390E830C2311C /* MultipartUpload.swift */; };
+		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145201F5FAB9B845A2389D45354FC3FF /* ParameterEncoding.swift */; };
+		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2658059C56B8FAFE058CA3FAE7739EB5 /* URLEncodedFormEncoder.swift */; };
+		D4CE0AB6A580ED1F0999D94DBB63BA12 /* Pods-TinderDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D57BD1B39C0A6C90CD19E32FDEC3E6E /* Pods-TinderDemo-dummy.m */; };
+		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0763F5D837C173DAEBAC5CB0E3B3B7 /* URLRequest+Alamofire.swift */; };
 		DA058647BE8EA6094C97B9F7F4C67C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
-		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623B12617B9EB3D974884C95BB07A7C0 /* AuthenticationInterceptor.swift */; };
-		E97B9366414B1E5EA48C5E201FD9CE00 /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82105A64260DFA2A6E16316B3A223ABA /* ic_like@2x.png */; };
-		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672BFB78F895238DD42AC322F44DA88D /* Request.swift */; };
-		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DEBE748F370F6F989859AB8F52E90 /* Validation.swift */; };
-		F14CE1CFC1B9E45AC8794AE702AD6A06 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB86B2F02040DF451E772F9FE1C1D726 /* ic_skip@3x.png */; };
+		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56E5F93B844E643A1C03C979B2EF623 /* AuthenticationInterceptor.swift */; };
+		E4B074278E2C8D9D0F8DF5EA159DE404 /* KDCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE2C816EE22EE77C98F0E9574A2DE61 /* KDCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8619A1F80D92F420E65BF92E48B4014 /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAFC57C549D10E10657A29B8E4FA434 /* ic_like@3x.png */; };
+		E97B9366414B1E5EA48C5E201FD9CE00 /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADFF0174553531A759423AC0EA618F8 /* ic_like@2x.png */; };
+		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA887C5785C88DBDF6321E85A299CB66 /* Request.swift */; };
+		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DE08F01500FCA781D7A4B47AFB5FD3 /* Validation.swift */; };
 		F6B16DC8CADA07287C6A372AC8AD787C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */; };
-		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA81B889CF79A5A63D82EA6A8BE0263 /* URLSessionConfiguration+Alamofire.swift */; };
+		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5A3BB42FA8928584AD43CAD575B341 /* URLSessionConfiguration+Alamofire.swift */; };
+		F78E87825E57CBAFCFA72198670FE83B /* EventsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28167DAFDCFE151045EC6BD672CFC09F /* EventsManager.swift */; };
+		FC5CE0F9931E76FE38E6E301EC19210B /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26B844AB592627135F7B286E2A5183 /* CalendarFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20C1E2A39AE7F2EAF0ED62EBC1A99901 /* PBXContainerItemProxy */ = {
+		1585F458B49085AB1A133A350FB67CDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 48CF6737F3CCFB614C0F0807088B2AF8;
-			remoteInfo = "TinderSwipeView-TinderSwipeView";
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
-		2AB27A8F3202D5123105BB150AB845F6 /* PBXContainerItemProxy */ = {
+		1B128F2EA01E2DD2F3F7A8E0ACAF6AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7F092F2CAB7938B95539F1B9897A5CE;
+			remoteInfo = TinderSwipeView;
+		};
+		2358BCE92A6392A9EE89A1933E3C6DAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7E9303513D388754794A7D4C4C2D18AD;
 			remoteInfo = "Pods-TinderDemo";
 		};
-		576EBEA045C3DAC57D381F3E83D201AC /* PBXContainerItemProxy */ = {
+		43C6C4F4D9106BE412E34D368B4CE2F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		BC554B75E4F7808069BCF682AF619D42 /* PBXContainerItemProxy */ = {
+		541C5C9776A413BB138F687BAD1B37E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D7F092F2CAB7938B95539F1B9897A5CE;
 			remoteInfo = TinderSwipeView;
 		};
-		E988F6FF42BA783A94071705F9590BE5 /* PBXContainerItemProxy */ = {
+		88A5F9208D5E7ED10368E8FACE2B84FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D7F092F2CAB7938B95539F1B9897A5CE;
-			remoteInfo = TinderSwipeView;
+			remoteGlobalIDString = 48CF6737F3CCFB614C0F0807088B2AF8;
+			remoteInfo = "TinderSwipeView-TinderSwipeView";
 		};
-		EA3441FC454D909F6E8B4970725CA4B2 /* PBXContainerItemProxy */ = {
+		D78F32ABF6DCA92D03589397080ED48E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 7BB7A4D260FDCE05D3AB31199589BBE5;
+			remoteInfo = KDCalendar;
+		};
+		E674C706C8D58AD02DF87C40FBE14A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB7A4D260FDCE05D3AB31199589BBE5;
+			remoteInfo = KDCalendar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02411F5B11A54DD94B44DF7BADC372A5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		07A094F3E8C6CBB3C80A9AF15AA78736 /* TinderSwipeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinderSwipeView.debug.xcconfig; sourceTree = "<group>"; };
-		07FFFA6EBB80643D847E338DB4166596 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		121794600EA9A473D6E6BB296430E5DB /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		0FC01602BF58477001244262E2515284 /* KDCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KDCalendar-Info.plist"; sourceTree = "<group>"; };
+		119B0722B67FF1EB961E4978E10BD83E /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		1232EB748EB4A0839E03A49A6A3372E5 /* Pods-TinderDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDemo-Info.plist"; sourceTree = "<group>"; };
 		12E216FA824EE7F4F38135F37446B631 /* Pods-TinderDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		153C5F7B20DB5D4AEC6CB60ED97ECAB1 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		1AA81B889CF79A5A63D82EA6A8BE0263 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
-		1E194BCBDFFBD9469F60BC23DD6C9A55 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
-		200B46613ADE97F55AD86430FB5D1FDC /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		13653C44CBD88371511390E830C2311C /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		145201F5FAB9B845A2389D45354FC3FF /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		18198056D8A54B41D056011693365DDF /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		1AC3325193C62B8261DCA91127B2B093 /* CalendarView+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+Delegate.swift"; path = "KDCalendar/CalendarView/CalendarView+Delegate.swift"; sourceTree = "<group>"; };
+		1B69BAD4737C08D32E368201DC36CACC /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		1D6292C129004C2F82EE933EF5DFC4F8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		20656D965DB34F6EC39BB371C6276BF0 /* TinderSwipeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinderSwipeView.release.xcconfig; sourceTree = "<group>"; };
 		222DAEF0D819F359AFCFF3D4F927E8A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		24C08AADBA622AAE478AA1C77C4C2294 /* Pods-TinderDemo-TinderDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDemo-TinderDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		25007B8DD6CB410BE832B7F7E64C73E5 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
-		3A1DEBE748F370F6F989859AB8F52E90 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		3A36596F319A9BF597167B87FF4FABCD /* ic_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@3x.png"; path = "TinderSwipeView/Resources/ic_like@3x.png"; sourceTree = "<group>"; };
-		3A82662913166F38CF32A8797F94FC3D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		3A909552279274F2F6652A5B835963E7 /* TinderSwipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderSwipeView.swift; path = TinderSwipeView/Classes/TinderSwipeView.swift; sourceTree = "<group>"; };
-		3C45343F8B8DBBFFB09F2C42836CD187 /* TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
-		3CFB9F131D8878F3AB2DFEEA54F17F55 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		2658059C56B8FAFE058CA3FAE7739EB5 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		28167DAFDCFE151045EC6BD672CFC09F /* EventsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventsManager.swift; path = KDCalendar/CalendarView/EventsManager.swift; sourceTree = "<group>"; };
+		2905AF9F5F6755E6F61AEA37B8015311 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		2B819DCE24AE3957BCDF925247E53DD7 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		32DE08F01500FCA781D7A4B47AFB5FD3 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		3509FBCD5F4BA8BF225872CEBC237AA4 /* TinderSwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinderSwipeView-dummy.m"; sourceTree = "<group>"; };
+		37968BDB82CFEEE06893DC27EF5EBA16 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		38F49283AD16618775380F6EEFA54E18 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		3D57BD1B39C0A6C90CD19E32FDEC3E6E /* Pods-TinderDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderDemo-dummy.m"; sourceTree = "<group>"; };
-		3E95D3F09A102F8B5C129A0599C346C3 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		3E059EA783A1FAFA8F32C844018BAE19 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		3EB7A86313229E1D895F81B9CE95A505 /* Pods-TinderDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		41BB7660EFFA8D7F19FFC258FED1FEB2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		428DA56859BABFD1B0657CB88CE299E4 /* TinderSwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinderSwipeView.modulemap; sourceTree = "<group>"; };
 		472F0111CA1F109F34315BEA16E3F1DE /* Pods-TinderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5073FB9F84DA29A226B3C727EDD6975D /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
-		532CC5B1521B0CD5D1F0F10568E9241D /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
-		53E447A957582DD37C62382D5518207D /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		5781AF8B47E76C18732617AED9E41844 /* TinderSwipeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinderSwipeView.release.xcconfig; sourceTree = "<group>"; };
-		5949C3167DAF624387B96BC95A15FC07 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
-		598C160B1504D109A046659690E56ECF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		59AC2DA61E5EA2FBAA2FA3AF4D488B00 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		59BF55FA75FA02C3E46465BC23F66774 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		4A0763F5D837C173DAEBAC5CB0E3B3B7 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		4C7604FD09EE1DA5F60E75B51225DAF8 /* CalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = KDCalendar/CalendarView/CalendarView.swift; sourceTree = "<group>"; };
+		5C71FB8DE5ACA3D2F36CAEF7A0A7EDF3 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6D4F9931F54A217DA89C62EAAE1FAA /* TinderSwipeView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TinderSwipeView.bundle; path = "TinderSwipeView-TinderSwipeView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		603522E5D6BE1C0254A6D3291E588999 /* TinderSwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinderSwipeView-dummy.m"; sourceTree = "<group>"; };
-		60805B2DDB37648FF4969CDEC2A94241 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		61F3FA9A150294145EB74D4020821338 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		623B12617B9EB3D974884C95BB07A7C0 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		62C792DAE8619017111727A0533FBBDA /* TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
+		62F120AE17925768BE2DEFC71F54727C /* CalendarView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+Extensions.swift"; path = "KDCalendar/CalendarView/CalendarView+Extensions.swift"; sourceTree = "<group>"; };
 		62F2A28CD17FFDC7A26037D2F912C52A /* Pods-TinderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDemo.release.xcconfig"; sourceTree = "<group>"; };
-		672BFB78F895238DD42AC322F44DA88D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		65691C2B7E685B566B3E6F4525B7ADCE /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		668E873EC01406B8209024CD2E55CB94 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		6829D0582E5298BE5C59526BE259523B /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		68BBF2A3D086C2CAD748CA976EDB10FB /* KDCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDCalendar.modulemap; sourceTree = "<group>"; };
+		6A982E2B2B739945FF14C2924804D3A9 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		6BE2C816EE22EE77C98F0E9574A2DE61 /* KDCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCalendar-umbrella.h"; sourceTree = "<group>"; };
 		6C1E0B71F734CA00C25E1AEFFF0DD4E8 /* Pods-TinderDemo-TinderDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderDemo-TinderDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		6F2491904C9CDD4831692EAF285B2BFC /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		6F49FCBE236DD3EF39D6FC9A2C9538BA /* Pods-TinderDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDemoTests-Info.plist"; sourceTree = "<group>"; };
+		70482B7256498B0DA6D721D001EBC722 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		71B6A2BD3B8304C5E66DC06CC9C54B3E /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		72210ECA1BBBA4F9AEA8D74E5D4CF97B /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		72F3E403CAB943996484ECD3DB1E7C8E /* CalendarDayCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDayCell.swift; path = KDCalendar/CalendarView/CalendarDayCell.swift; sourceTree = "<group>"; };
 		737EB40613DDC3BE88CFC0BA8FD38480 /* Pods-TinderDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		74D727FECF6CC5B645A7C46530603050 /* ic_skip@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@2x.png"; path = "TinderSwipeView/Resources/ic_skip@2x.png"; sourceTree = "<group>"; };
+		75969D45F6FE4AD34110CBDE12086A77 /* overlay_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_skip@3x.png"; path = "TinderSwipeView/Resources/overlay_skip@3x.png"; sourceTree = "<group>"; };
 		75BA45829C1C968E6865E03F5E43DEEE /* Pods-TinderDemo-TinderDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDemo-TinderDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		75BBF315D2F74963427DC55489E8A9DD /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		75DE6E87A0520EAC27562FCAD1B75052 /* KDCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KDCalendar.framework; path = KDCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FD5D3625175F7846AF84E0CC0A1951 /* Pods-TinderDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinderDemo-umbrella.h"; sourceTree = "<group>"; };
 		7742A3FDB81E7A4F16DBFD327A8ADE54 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinderDemo-TinderDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		796027E0E390DFDAE182907D229A00B1 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		778A2B1582E241F283A4AAD341C368B0 /* TinderSwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-umbrella.h"; sourceTree = "<group>"; };
+		7ADFF0174553531A759423AC0EA618F8 /* ic_like@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@2x.png"; path = "TinderSwipeView/Resources/ic_like@2x.png"; sourceTree = "<group>"; };
 		7BF5D90F080AE214082D3B585F348765 /* TinderSwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinderSwipeView.framework; path = TinderSwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FF330202115B627454E4E0CF7C90D63 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
-		802529674809D0157183149B6A9CDF51 /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
-		82105A64260DFA2A6E16316B3A223ABA /* ic_like@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@2x.png"; path = "TinderSwipeView/Resources/ic_like@2x.png"; sourceTree = "<group>"; };
+		7CD1E5EC9EA2EB8C17119E7CF8FC1298 /* CalendarView+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+DataSource.swift"; path = "KDCalendar/CalendarView/CalendarView+DataSource.swift"; sourceTree = "<group>"; };
+		80D962BC5D9A017724E3FA88625798A2 /* KDCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDCalendar.release.xcconfig; sourceTree = "<group>"; };
+		82DE2B2D45BA1C5B37FFFF8F97A9ECAC /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		85DE18C28BD269411E4F06E90AFD4738 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		87427FE4DF758599D1876ED3C4150DFB /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
+		8ADB7809940AB6F992BAE4A6F3102AE3 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarHeaderView.swift; path = KDCalendar/CalendarView/CalendarHeaderView.swift; sourceTree = "<group>"; };
 		8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		8E0979A2D393F257823087061BB51998 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		8F3B7C80D51F38070ED55DF761F654E0 /* overlay_skip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_skip.png; path = TinderSwipeView/Resources/overlay_skip.png; sourceTree = "<group>"; };
-		8FE39920D59C8444C8CCE4DA0E0A1239 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		90A7B6139F41CD0839AC7AA3115D4C69 /* Pods_TinderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinderDemo.framework; path = "Pods-TinderDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9455F111EF09F27A856C2A1551DD4874 /* overlay_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_like@3x.png"; path = "TinderSwipeView/Resources/overlay_like@3x.png"; sourceTree = "<group>"; };
-		95645A8ED1732A1F10D18B712E8EB970 /* TinderSwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-umbrella.h"; sourceTree = "<group>"; };
-		9901480792A6194AC0A41AD21482AFB5 /* TinderCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderCard.swift; path = TinderSwipeView/Classes/TinderCard.swift; sourceTree = "<group>"; };
+		910FA308F9BDCE8140610213B43BA71D /* TinderSwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-prefix.pch"; sourceTree = "<group>"; };
+		96A72713828415B0E00AA3D6A0E77E30 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		97A6C534B9700E19B2C46E00320C0E3F /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		9C2244EAAE9B9C3D355E4F1B8B797FDB /* KDCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDCalendar-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBE0AFE9873D5EDE73BC5F3153A2399 /* Pods-TinderDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinderDemoTests.modulemap"; sourceTree = "<group>"; };
-		A630A542587167A7CEF05366F0D446D7 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		9F441EAADCD11B666AD5C44F1528FC7D /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		9F5A3BB42FA8928584AD43CAD575B341 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		A22FDCD9B45C18D4E7CA7A7B1A471B36 /* overlay_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_like@3x.png"; path = "TinderSwipeView/Resources/overlay_like@3x.png"; sourceTree = "<group>"; };
+		A56B8B4438F35F27E68E5483040E9CB8 /* ic_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@3x.png"; path = "TinderSwipeView/Resources/ic_skip@3x.png"; sourceTree = "<group>"; };
+		A667B63654CBF4C66A33A7092D25F3B8 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		A7F45680787EB67D3712A43537716B6E /* Pods-TinderDemo-TinderDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderDemo-TinderDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A81249BA9A11580081361093B886CDB6 /* Pods-TinderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		A8583318552CDD825959CC5C4A847538 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		A9065955232CB773C4FAD8419AA7A4DF /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
-		A90C4373E83CE294A62BB635FAE0317E /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
-		AB86B2F02040DF451E772F9FE1C1D726 /* ic_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@3x.png"; path = "TinderSwipeView/Resources/ic_skip@3x.png"; sourceTree = "<group>"; };
-		AC1AD02FBDDB763C77515115EEBED8E1 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		AE224234CD0963C2E9C85714D9768EC5 /* TinderSwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-prefix.pch"; sourceTree = "<group>"; };
+		A91CDEE59976436D207D19432EC1235E /* TinderSwipeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinderSwipeView.debug.xcconfig; sourceTree = "<group>"; };
+		AB6707C868A09A5FB83D7075726E686A /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		AFBC8FB14AAB947EE856E1D369E76123 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		B00728E00E15AD5FE4DA331C56EE5F72 /* Pods-TinderDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinderDemoTests-umbrella.h"; sourceTree = "<group>"; };
 		B2A4CE30CFE04CE1AA0B7649CDDBA43F /* Pods-TinderDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinderDemo.modulemap"; sourceTree = "<group>"; };
 		B2BC121F6946DFEC9A020ECA021A4B82 /* Pods-TinderDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B33FE44E47B980B20E78DF07DB719A08 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		B3471317FC7393B4AC0C8B84C032E001 /* Pods-TinderDemo-TinderDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinderDemo-TinderDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B3AECDE266298E85D337CA8D94AC62F3 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		B3BC224DB2480489127F773E7517292E /* overlay_like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_like.png; path = TinderSwipeView/Resources/overlay_like.png; sourceTree = "<group>"; };
 		B5A93C545331BA2F353438F3A1CE4391 /* Pods-TinderDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinderDemo-frameworks.sh"; sourceTree = "<group>"; };
-		B6C250EB45857CC840F5CDA93B2EFE86 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
-		BA7848CA28837C9B20C81FE9B223DF29 /* overlay_like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_like.png; path = TinderSwipeView/Resources/overlay_like.png; sourceTree = "<group>"; };
-		BCB813FEA152E2B8589CABB6748F1FC2 /* TinderSwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinderSwipeView.modulemap; sourceTree = "<group>"; };
-		BCF8C9C04E2E14BDBD120049832D9659 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		B6FCF7A08B01E972765A7024E6921BCF /* CalendarView+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+Style.swift"; path = "KDCalendar/CalendarView/CalendarView+Style.swift"; sourceTree = "<group>"; };
 		BDAB98376DC8F5E9373723D00EE90ED8 /* Pods-TinderDemo-TinderDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDemo-TinderDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C04AC6B81E95A0D3B7B0AA9BA2D61849 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		BFA9418119BF7605D286CD4C2753813D /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		C1A1273E42D6DECC72F4B58014D93DCC /* Pods_TinderDemo_TinderDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinderDemo_TinderDemoUITests.framework; path = "Pods-TinderDemo-TinderDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31E0228FB8FD412B81558B00F6B1716 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		C2A1FBD36DB91284A123C38343149926 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		C570AF8A1B8CA9E9468897D65F4E061B /* Pods-TinderDemo-TinderDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderDemo-TinderDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7DA572A5C7C292B68CBE504C07E2EF8 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		CA887C5785C88DBDF6321E85A299CB66 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		CADB9A55915E8CD9CD3F7B95C220CD25 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		CB26B844AB592627135F7B286E2A5183 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarFlowLayout.swift; path = KDCalendar/CalendarView/CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		CF353304FE0027BF7503C2848702A61C /* KDCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCalendar-prefix.pch"; sourceTree = "<group>"; };
+		D56E5F93B844E643A1C03C979B2EF623 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		D649F66CBAF7356C4FCE4494D9757AB8 /* overlay_skip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_skip.png; path = TinderSwipeView/Resources/overlay_skip.png; sourceTree = "<group>"; };
+		D7E38AB31613730DE6871D16F26CAEC3 /* TinderCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderCard.swift; path = TinderSwipeView/Classes/TinderCard.swift; sourceTree = "<group>"; };
+		DEE91E1EF3659641B3ED6AD9A4705D1F /* KDCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDCalendar.debug.xcconfig; sourceTree = "<group>"; };
 		E29E34107A3D52FE99AE327C57D330DE /* Pods-TinderDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderDemoTests-dummy.m"; sourceTree = "<group>"; };
-		E2F64A62ECAB10C217316EBB390E4F1C /* overlay_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_skip@3x.png"; path = "TinderSwipeView/Resources/overlay_skip@3x.png"; sourceTree = "<group>"; };
-		EDBABBE5907BC4B777598F635DA6400E /* ic_skip@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@2x.png"; path = "TinderSwipeView/Resources/ic_skip@2x.png"; sourceTree = "<group>"; };
-		F14D0C03C82E488CF2B776AB2D5B4DBF /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		E89CA771A8FDB87D669FC66D7AFBB875 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		E92C4411E6F0073B1C912E56D45F9B1D /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		EB730576695AD69BD389F52E4473B9D3 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		F20B568CF911DF3AC6EE87783B54615B /* Pods-TinderDemo-TinderDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinderDemo-TinderDemoUITests.modulemap"; sourceTree = "<group>"; };
-		F960C815214237A64F81C4FAC06FCB5B /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		F3EE2B2F868D7875B23713D5E4FC0B4F /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		F7B076D6BCF71EDCA952AF10C28103E3 /* TinderSwipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderSwipeView.swift; path = TinderSwipeView/Classes/TinderSwipeView.swift; sourceTree = "<group>"; };
 		FC9A9D4A99F2F5A3FF3EA2106B7CC25B /* Pods_TinderDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinderDemoTests.framework; path = "Pods-TinderDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEC7C60604E601C146B5514E543FCF6 /* Pods-TinderDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEAFC57C549D10E10657A29B8E4FA434 /* ic_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@3x.png"; path = "TinderSwipeView/Resources/ic_like@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2EF0D6DBF1974592EAB4D705350675E2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06A40F45E34C02FE76FA0766380989E2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31A8B16C78BB64041F6CA45D61989FFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		432DEF9FD468BD88326E8702697329D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,11 +274,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69F15D47D1156AFFF059BE396E4C3844 /* Frameworks */ = {
+		50AD8B5FC883A5DE3189AB3A85E7CFF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687EF3B91C74DC981524F1E27931B961 /* Foundation.framework in Frameworks */,
+				62AF872D9B16C9715670A089EEF32DCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548CFBDEE2E0928B5377B6A8F4682518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0622679275BA9D990957BD7096273A33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417F00523F0019B30760D67291FAC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +303,14 @@
 			files = (
 				A738C2A39C0150BBA7EA5EC19B95F03E /* CFNetwork.framework in Frameworks */,
 				F6B16DC8CADA07287C6A372AC8AD787C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E4ABFBDECD6EB98654D825732EE1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351D55BE90CACAB0FA365A811225CEA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +343,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		17FF30573EF4BEE96D841CC28FDD6BAB /* TinderSwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				D7E38AB31613730DE6871D16F26CAEC3 /* TinderCard.swift */,
+				F7B076D6BCF71EDCA952AF10C28103E3 /* TinderSwipeView.swift */,
+				9E5FBD56A2C58068E405FF9F8B8CE30B /* Resources */,
+				959F1501E3A35956C86DC35E3F7749AD /* Support Files */,
+			);
+			name = TinderSwipeView;
+			path = TinderSwipeView;
+			sourceTree = "<group>";
+		};
 		1F889CAEABD02697FB02094F4FAC12CF /* Pods-TinderDemoTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,63 +371,19 @@
 			path = "Target Support Files/Pods-TinderDemoTests";
 			sourceTree = "<group>";
 		};
-		2CD8B419BBE92A0AF866F74149305835 /* Alamofire */ = {
+		285956F0145043736A0BDE7580704327 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				61F3FA9A150294145EB74D4020821338 /* AFError.swift */,
-				60805B2DDB37648FF4969CDEC2A94241 /* Alamofire.swift */,
-				200B46613ADE97F55AD86430FB5D1FDC /* AlamofireExtended.swift */,
-				623B12617B9EB3D974884C95BB07A7C0 /* AuthenticationInterceptor.swift */,
-				25007B8DD6CB410BE832B7F7E64C73E5 /* CachedResponseHandler.swift */,
-				F14D0C03C82E488CF2B776AB2D5B4DBF /* Combine.swift */,
-				153C5F7B20DB5D4AEC6CB60ED97ECAB1 /* DispatchQueue+Alamofire.swift */,
-				59BF55FA75FA02C3E46465BC23F66774 /* EventMonitor.swift */,
-				5949C3167DAF624387B96BC95A15FC07 /* HTTPHeaders.swift */,
-				A630A542587167A7CEF05366F0D446D7 /* HTTPMethod.swift */,
-				07FFFA6EBB80643D847E338DB4166596 /* MultipartFormData.swift */,
-				75BBF315D2F74963427DC55489E8A9DD /* MultipartUpload.swift */,
-				41BB7660EFFA8D7F19FFC258FED1FEB2 /* NetworkReachabilityManager.swift */,
-				6F2491904C9CDD4831692EAF285B2BFC /* Notifications.swift */,
-				53E447A957582DD37C62382D5518207D /* OperationQueue+Alamofire.swift */,
-				532CC5B1521B0CD5D1F0F10568E9241D /* ParameterEncoder.swift */,
-				3A82662913166F38CF32A8797F94FC3D /* ParameterEncoding.swift */,
-				A90C4373E83CE294A62BB635FAE0317E /* Protected.swift */,
-				B6C250EB45857CC840F5CDA93B2EFE86 /* RedirectHandler.swift */,
-				672BFB78F895238DD42AC322F44DA88D /* Request.swift */,
-				C04AC6B81E95A0D3B7B0AA9BA2D61849 /* RequestInterceptor.swift */,
-				1E194BCBDFFBD9469F60BC23DD6C9A55 /* RequestTaskMap.swift */,
-				02411F5B11A54DD94B44DF7BADC372A5 /* Response.swift */,
-				598C160B1504D109A046659690E56ECF /* ResponseSerialization.swift */,
-				A9065955232CB773C4FAD8419AA7A4DF /* Result+Alamofire.swift */,
-				3CFB9F131D8878F3AB2DFEEA54F17F55 /* RetryPolicy.swift */,
-				7FF330202115B627454E4E0CF7C90D63 /* ServerTrustEvaluation.swift */,
-				F960C815214237A64F81C4FAC06FCB5B /* Session.swift */,
-				8FE39920D59C8444C8CCE4DA0E0A1239 /* SessionDelegate.swift */,
-				5073FB9F84DA29A226B3C727EDD6975D /* StringEncoding+Alamofire.swift */,
-				AC1AD02FBDDB763C77515115EEBED8E1 /* URLConvertible+URLRequestConvertible.swift */,
-				B33FE44E47B980B20E78DF07DB719A08 /* URLEncodedFormEncoder.swift */,
-				C31E0228FB8FD412B81558B00F6B1716 /* URLRequest+Alamofire.swift */,
-				1AA81B889CF79A5A63D82EA6A8BE0263 /* URLSessionConfiguration+Alamofire.swift */,
-				3A1DEBE748F370F6F989859AB8F52E90 /* Validation.swift */,
-				6072EE1157E34584BE9E22D0EBD5B0DB /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		6072EE1157E34584BE9E22D0EBD5B0DB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCF8C9C04E2E14BDBD120049832D9659 /* Alamofire.modulemap */,
-				59AC2DA61E5EA2FBAA2FA3AF4D488B00 /* Alamofire-dummy.m */,
-				A8583318552CDD825959CC5C4A847538 /* Alamofire-Info.plist */,
-				8E0979A2D393F257823087061BB51998 /* Alamofire-prefix.pch */,
-				3E95D3F09A102F8B5C129A0599C346C3 /* Alamofire-umbrella.h */,
-				121794600EA9A473D6E6BB296430E5DB /* Alamofire.debug.xcconfig */,
-				796027E0E390DFDAE182907D229A00B1 /* Alamofire.release.xcconfig */,
+				68BBF2A3D086C2CAD748CA976EDB10FB /* KDCalendar.modulemap */,
+				9C2244EAAE9B9C3D355E4F1B8B797FDB /* KDCalendar-dummy.m */,
+				0FC01602BF58477001244262E2515284 /* KDCalendar-Info.plist */,
+				CF353304FE0027BF7503C2848702A61C /* KDCalendar-prefix.pch */,
+				6BE2C816EE22EE77C98F0E9574A2DE61 /* KDCalendar-umbrella.h */,
+				DEE91E1EF3659641B3ED6AD9A4705D1F /* KDCalendar.debug.xcconfig */,
+				80D962BC5D9A017724E3FA88625798A2 /* KDCalendar.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			path = "../Target Support Files/KDCalendar";
 			sourceTree = "<group>";
 		};
 		62A76F1F834C6E2F2CACEC0EA852E9E4 /* Pods-TinderDemo */ = {
@@ -384,10 +403,67 @@
 			path = "Target Support Files/Pods-TinderDemo";
 			sourceTree = "<group>";
 		};
-		684B5EB65305ACBB3C23692DDA81BE7E /* Products */ = {
+		76E4AB56BB952B5848F060C26A322E6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B69BAD4737C08D32E368201DC36CACC /* Alamofire.modulemap */,
+				2B819DCE24AE3957BCDF925247E53DD7 /* Alamofire-dummy.m */,
+				F3EE2B2F868D7875B23713D5E4FC0B4F /* Alamofire-Info.plist */,
+				3E059EA783A1FAFA8F32C844018BAE19 /* Alamofire-prefix.pch */,
+				BFA9418119BF7605D286CD4C2753813D /* Alamofire-umbrella.h */,
+				C7DA572A5C7C292B68CBE504C07E2EF8 /* Alamofire.debug.xcconfig */,
+				37968BDB82CFEEE06893DC27EF5EBA16 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		959F1501E3A35956C86DC35E3F7749AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87427FE4DF758599D1876ED3C4150DFB /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */,
+				428DA56859BABFD1B0657CB88CE299E4 /* TinderSwipeView.modulemap */,
+				3509FBCD5F4BA8BF225872CEBC237AA4 /* TinderSwipeView-dummy.m */,
+				62C792DAE8619017111727A0533FBBDA /* TinderSwipeView-Info.plist */,
+				910FA308F9BDCE8140610213B43BA71D /* TinderSwipeView-prefix.pch */,
+				778A2B1582E241F283A4AAD341C368B0 /* TinderSwipeView-umbrella.h */,
+				A91CDEE59976436D207D19432EC1235E /* TinderSwipeView.debug.xcconfig */,
+				20656D965DB34F6EC39BB371C6276BF0 /* TinderSwipeView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinderSwipeView";
+			sourceTree = "<group>";
+		};
+		9E36D57E505521974966E734C3EE44D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD5ECA47874542B037567463FA80D842 /* Alamofire */,
+				CF352079FDDB70F22B7D4A68B257D29A /* KDCalendar */,
+				17FF30573EF4BEE96D841CC28FDD6BAB /* TinderSwipeView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E5FBD56A2C58068E405FF9F8B8CE30B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7ADFF0174553531A759423AC0EA618F8 /* ic_like@2x.png */,
+				FEAFC57C549D10E10657A29B8E4FA434 /* ic_like@3x.png */,
+				74D727FECF6CC5B645A7C46530603050 /* ic_skip@2x.png */,
+				A56B8B4438F35F27E68E5483040E9CB8 /* ic_skip@3x.png */,
+				B3BC224DB2480489127F773E7517292E /* overlay_like.png */,
+				A22FDCD9B45C18D4E7CA7A7B1A471B36 /* overlay_like@3x.png */,
+				D649F66CBAF7356C4FCE4494D9757AB8 /* overlay_skip.png */,
+				75969D45F6FE4AD34110CBDE12086A77 /* overlay_skip@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A8D08DFEE9BEDC89B6C446FD4780184C /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				75DE6E87A0520EAC27562FCAD1B75052 /* KDCalendar.framework */,
 				90A7B6139F41CD0839AC7AA3115D4C69 /* Pods_TinderDemo.framework */,
 				C1A1273E42D6DECC72F4B58014D93DCC /* Pods_TinderDemo_TinderDemoUITests.framework */,
 				FC9A9D4A99F2F5A3FF3EA2106B7CC25B /* Pods_TinderDemoTests.framework */,
@@ -397,16 +473,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92F09AE12D2C8700A3AD82D85682A0A4 /* TinderSwipeView */ = {
+		AD5ECA47874542B037567463FA80D842 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				9901480792A6194AC0A41AD21482AFB5 /* TinderCard.swift */,
-				3A909552279274F2F6652A5B835963E7 /* TinderSwipeView.swift */,
-				C1BA305E12A0B36274A38B4C5B783FC0 /* Resources */,
-				C9AA45499EC21771328FBDCA4FBB39CF /* Support Files */,
+				668E873EC01406B8209024CD2E55CB94 /* AFError.swift */,
+				1D6292C129004C2F82EE933EF5DFC4F8 /* Alamofire.swift */,
+				6829D0582E5298BE5C59526BE259523B /* AlamofireExtended.swift */,
+				D56E5F93B844E643A1C03C979B2EF623 /* AuthenticationInterceptor.swift */,
+				2905AF9F5F6755E6F61AEA37B8015311 /* CachedResponseHandler.swift */,
+				EB730576695AD69BD389F52E4473B9D3 /* Combine.swift */,
+				AB6707C868A09A5FB83D7075726E686A /* DispatchQueue+Alamofire.swift */,
+				65691C2B7E685B566B3E6F4525B7ADCE /* EventMonitor.swift */,
+				70482B7256498B0DA6D721D001EBC722 /* HTTPHeaders.swift */,
+				E89CA771A8FDB87D669FC66D7AFBB875 /* HTTPMethod.swift */,
+				96A72713828415B0E00AA3D6A0E77E30 /* MultipartFormData.swift */,
+				13653C44CBD88371511390E830C2311C /* MultipartUpload.swift */,
+				119B0722B67FF1EB961E4978E10BD83E /* NetworkReachabilityManager.swift */,
+				A667B63654CBF4C66A33A7092D25F3B8 /* Notifications.swift */,
+				B3AECDE266298E85D337CA8D94AC62F3 /* OperationQueue+Alamofire.swift */,
+				E92C4411E6F0073B1C912E56D45F9B1D /* ParameterEncoder.swift */,
+				145201F5FAB9B845A2389D45354FC3FF /* ParameterEncoding.swift */,
+				71B6A2BD3B8304C5E66DC06CC9C54B3E /* Protected.swift */,
+				82DE2B2D45BA1C5B37FFFF8F97A9ECAC /* RedirectHandler.swift */,
+				CA887C5785C88DBDF6321E85A299CB66 /* Request.swift */,
+				9F441EAADCD11B666AD5C44F1528FC7D /* RequestInterceptor.swift */,
+				85DE18C28BD269411E4F06E90AFD4738 /* RequestTaskMap.swift */,
+				5C71FB8DE5ACA3D2F36CAEF7A0A7EDF3 /* Response.swift */,
+				97A6C534B9700E19B2C46E00320C0E3F /* ResponseSerialization.swift */,
+				CADB9A55915E8CD9CD3F7B95C220CD25 /* Result+Alamofire.swift */,
+				72210ECA1BBBA4F9AEA8D74E5D4CF97B /* RetryPolicy.swift */,
+				38F49283AD16618775380F6EEFA54E18 /* ServerTrustEvaluation.swift */,
+				18198056D8A54B41D056011693365DDF /* Session.swift */,
+				C2A1FBD36DB91284A123C38343149926 /* SessionDelegate.swift */,
+				AFBC8FB14AAB947EE856E1D369E76123 /* StringEncoding+Alamofire.swift */,
+				6A982E2B2B739945FF14C2924804D3A9 /* URLConvertible+URLRequestConvertible.swift */,
+				2658059C56B8FAFE058CA3FAE7739EB5 /* URLEncodedFormEncoder.swift */,
+				4A0763F5D837C173DAEBAC5CB0E3B3B7 /* URLRequest+Alamofire.swift */,
+				9F5A3BB42FA8928584AD43CAD575B341 /* URLSessionConfiguration+Alamofire.swift */,
+				32DE08F01500FCA781D7A4B47AFB5FD3 /* Validation.swift */,
+				76E4AB56BB952B5848F060C26A322E6C /* Support Files */,
 			);
-			name = TinderSwipeView;
-			path = TinderSwipeView;
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		BB01F4756C73833E392C7601154D20A3 /* Pods-TinderDemo-TinderDemoUITests */ = {
@@ -426,55 +534,25 @@
 			path = "Target Support Files/Pods-TinderDemo-TinderDemoUITests";
 			sourceTree = "<group>";
 		};
-		C1BA305E12A0B36274A38B4C5B783FC0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				82105A64260DFA2A6E16316B3A223ABA /* ic_like@2x.png */,
-				3A36596F319A9BF597167B87FF4FABCD /* ic_like@3x.png */,
-				EDBABBE5907BC4B777598F635DA6400E /* ic_skip@2x.png */,
-				AB86B2F02040DF451E772F9FE1C1D726 /* ic_skip@3x.png */,
-				BA7848CA28837C9B20C81FE9B223DF29 /* overlay_like.png */,
-				9455F111EF09F27A856C2A1551DD4874 /* overlay_like@3x.png */,
-				8F3B7C80D51F38070ED55DF761F654E0 /* overlay_skip.png */,
-				E2F64A62ECAB10C217316EBB390E4F1C /* overlay_skip@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C8E635A49D794B845B800275E190124B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2CD8B419BBE92A0AF866F74149305835 /* Alamofire */,
-				92F09AE12D2C8700A3AD82D85682A0A4 /* TinderSwipeView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C9AA45499EC21771328FBDCA4FBB39CF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				802529674809D0157183149B6A9CDF51 /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */,
-				BCB813FEA152E2B8589CABB6748F1FC2 /* TinderSwipeView.modulemap */,
-				603522E5D6BE1C0254A6D3291E588999 /* TinderSwipeView-dummy.m */,
-				3C45343F8B8DBBFFB09F2C42836CD187 /* TinderSwipeView-Info.plist */,
-				AE224234CD0963C2E9C85714D9768EC5 /* TinderSwipeView-prefix.pch */,
-				95645A8ED1732A1F10D18B712E8EB970 /* TinderSwipeView-umbrella.h */,
-				07A094F3E8C6CBB3C80A9AF15AA78736 /* TinderSwipeView.debug.xcconfig */,
-				5781AF8B47E76C18732617AED9E41844 /* TinderSwipeView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TinderSwipeView";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				C8E635A49D794B845B800275E190124B /* Pods */,
-				684B5EB65305ACBB3C23692DDA81BE7E /* Products */,
+				9E36D57E505521974966E734C3EE44D2 /* Pods */,
+				A8D08DFEE9BEDC89B6C446FD4780184C /* Products */,
 				07D760DD0E508752EC456963206E8D8F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF352079FDDB70F22B7D4A68B257D29A /* KDCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				FF5BEE61C6D57A368EFE910DBEE1EDC2 /* EventManager */,
+				285956F0145043736A0BDE7580704327 /* Support Files */,
+			);
+			name = KDCalendar;
+			path = KDCalendar;
 			sourceTree = "<group>";
 		};
 		E34DCC8E2CF86B8D72232914781A840D /* iOS */ = {
@@ -486,6 +564,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FF5BEE61C6D57A368EFE910DBEE1EDC2 /* EventManager */ = {
+			isa = PBXGroup;
+			children = (
+				72F3E403CAB943996484ECD3DB1E7C8E /* CalendarDayCell.swift */,
+				CB26B844AB592627135F7B286E2A5183 /* CalendarFlowLayout.swift */,
+				8ADB7809940AB6F992BAE4A6F3102AE3 /* CalendarHeaderView.swift */,
+				4C7604FD09EE1DA5F60E75B51225DAF8 /* CalendarView.swift */,
+				7CD1E5EC9EA2EB8C17119E7CF8FC1298 /* CalendarView+DataSource.swift */,
+				1AC3325193C62B8261DCA91127B2B093 /* CalendarView+Delegate.swift */,
+				62F120AE17925768BE2DEFC71F54727C /* CalendarView+Extensions.swift */,
+				B6FCF7A08B01E972765A7024E6921BCF /* CalendarView+Style.swift */,
+				28167DAFDCFE151045EC6BD672CFC09F /* EventsManager.swift */,
+			);
+			name = EventManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -494,6 +588,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BEF487C9FC6AEE6F147B9EEF0D54375 /* TinderSwipeView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1CD4DE0EDABB489A6AEAB779A4DDB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A71DD198C3B9E662040DC19672111D /* Pods-TinderDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,19 +615,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC103ECF7C13645CEF4B020FFFD9AF41 /* Headers */ = {
+		8958E59B87BD59813B6439C4554791B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BDD054FD77FD6B1C5196A4E645C7F50 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */,
+				5AE6447F47EA30E089ED3796CCDCECF2 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9987843F6AC2118541B0E0F2A70260E /* Headers */ = {
+		CF1341612062AD7D6B14C512BDE3C1D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F4B6C793807FC3BE11CDCB06EBFBC3 /* Pods-TinderDemo-umbrella.h in Headers */,
+				E4B074278E2C8D9D0F8DF5EA159DE404 /* KDCalendar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,11 +636,11 @@
 /* Begin PBXNativeTarget section */
 		48CF6737F3CCFB614C0F0807088B2AF8 /* TinderSwipeView-TinderSwipeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4602C680F5F361A06001640838F9137 /* Build configuration list for PBXNativeTarget "TinderSwipeView-TinderSwipeView" */;
+			buildConfigurationList = BF723CE390BAC66206AF3795ACE02D9B /* Build configuration list for PBXNativeTarget "TinderSwipeView-TinderSwipeView" */;
 			buildPhases = (
-				44E7A9B70503685ACDF87099FAA7277B /* Sources */,
-				31A8B16C78BB64041F6CA45D61989FFA /* Frameworks */,
-				D95E2F7316A4A1A16A74A9418428FE32 /* Resources */,
+				1E929ABB9969155B39675426CC853A63 /* Sources */,
+				8417F00523F0019B30760D67291FAC4D /* Frameworks */,
+				557223E92BA2A2EEB12F13E6A8B8654F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -551,38 +653,58 @@
 		};
 		656162205903E42E29E5B55549259D09 /* Pods-TinderDemo-TinderDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46375441EFBF91DA6788F16E2EA31611 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */;
+			buildConfigurationList = 87CF7F81A04756DAFF2E84FE4C198162 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */;
 			buildPhases = (
-				CC103ECF7C13645CEF4B020FFFD9AF41 /* Headers */,
-				49A767DC8E1CC2A2F57714ECD7E716E2 /* Sources */,
-				2EF0D6DBF1974592EAB4D705350675E2 /* Frameworks */,
-				4FA95B51461911B41512C11F06CC06DF /* Resources */,
+				8958E59B87BD59813B6439C4554791B8 /* Headers */,
+				931EE07A07803F291DC27481FE35899A /* Sources */,
+				548CFBDEE2E0928B5377B6A8F4682518 /* Frameworks */,
+				026B22D5464AD227036019F13CBEDB46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80AA6797F38DBAD00081C2FF6DD058CC /* PBXTargetDependency */,
-				0867B578204D4BE68E1E4D9E19A02185 /* PBXTargetDependency */,
+				AABFE3BC4B8F1C287783900392386396 /* PBXTargetDependency */,
+				9006FAB1D1F9225F2A1C87BD5C2561EB /* PBXTargetDependency */,
+				2A03C127CC00EACD36EBFFF9CB851D2C /* PBXTargetDependency */,
 			);
 			name = "Pods-TinderDemo-TinderDemoUITests";
 			productName = "Pods-TinderDemo-TinderDemoUITests";
 			productReference = C1A1273E42D6DECC72F4B58014D93DCC /* Pods_TinderDemo_TinderDemoUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7E9303513D388754794A7D4C4C2D18AD /* Pods-TinderDemo */ = {
+		7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B5AF5C8E08D9E087E9F7171FF856CFC /* Build configuration list for PBXNativeTarget "Pods-TinderDemo" */;
+			buildConfigurationList = 133E3A108C9BDF1298CFC9C4829118C5 /* Build configuration list for PBXNativeTarget "KDCalendar" */;
 			buildPhases = (
-				E9987843F6AC2118541B0E0F2A70260E /* Headers */,
-				A8304A512AF90787774A13664C2F9692 /* Sources */,
-				69F15D47D1156AFFF059BE396E4C3844 /* Frameworks */,
-				C215F597FF30EE60207D1165E5503797 /* Resources */,
+				CF1341612062AD7D6B14C512BDE3C1D6 /* Headers */,
+				31131560C2DC70A2A6AF0C6D0C558845 /* Sources */,
+				50AD8B5FC883A5DE3189AB3A85E7CFF1 /* Frameworks */,
+				2DD67CB14B0EC1006EC23D338DACCDAD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0AE8DA534CAA2AA25B985ACC9EF12B47 /* PBXTargetDependency */,
-				812A48695AB453E4586E1B63CBD8B955 /* PBXTargetDependency */,
+			);
+			name = KDCalendar;
+			productName = KDCalendar;
+			productReference = 75DE6E87A0520EAC27562FCAD1B75052 /* KDCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E9303513D388754794A7D4C4C2D18AD /* Pods-TinderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEBC0503A9F6A0D3E3FDE5AA708BD0B /* Build configuration list for PBXNativeTarget "Pods-TinderDemo" */;
+			buildPhases = (
+				5C1CD4DE0EDABB489A6AEAB779A4DDB1 /* Headers */,
+				C393F1F23F6987775DDBB6CF5E61B81E /* Sources */,
+				E2E4ABFBDECD6EB98654D825732EE1E0 /* Frameworks */,
+				5BA573D537884A43DB34D35135872B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DFB0D1043DA8B473320743B70C2DCE6 /* PBXTargetDependency */,
+				DE72FCB55E57F8891283F2AF339A043A /* PBXTargetDependency */,
+				2170E5E50B90EC334AA2F68EA349E418 /* PBXTargetDependency */,
 			);
 			name = "Pods-TinderDemo";
 			productName = "Pods-TinderDemo";
@@ -601,7 +723,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2EC7204F9BD76BA9C795D9479C119E41 /* PBXTargetDependency */,
+				04E9D03B98D160ABFA51065F5F00D2CA /* PBXTargetDependency */,
 			);
 			name = "Pods-TinderDemoTests";
 			productName = "Pods-TinderDemoTests";
@@ -620,7 +742,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				500E7FBA1618F31C75734A6D92B07F7F /* PBXTargetDependency */,
+				1F3E801377CAAB0F0EE90F5F21769BD5 /* PBXTargetDependency */,
 			);
 			name = TinderSwipeView;
 			productName = TinderSwipeView;
@@ -663,11 +785,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 684B5EB65305ACBB3C23692DDA81BE7E /* Products */;
+			productRefGroup = A8D08DFEE9BEDC89B6C446FD4780184C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */,
 				7E9303513D388754794A7D4C4C2D18AD /* Pods-TinderDemo */,
 				656162205903E42E29E5B55549259D09 /* Pods-TinderDemo-TinderDemoUITests */,
 				BCFD4561A180B8C19460681BEC574B9C /* Pods-TinderDemoTests */,
@@ -678,6 +801,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		026B22D5464AD227036019F13CBEDB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0F4C68D4867C132CD999B7097A5228F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -694,7 +824,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FA95B51461911B41512C11F06CC06DF /* Resources */ = {
+		2DD67CB14B0EC1006EC23D338DACCDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557223E92BA2A2EEB12F13E6A8B8654F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26449ABE3798F4063D32C657D4114ED2 /* ic_like@2x.png in Resources */,
+				E8619A1F80D92F420E65BF92E48B4014 /* ic_like@3x.png in Resources */,
+				845A008B02B0D8E4421D51A175572517 /* ic_skip@2x.png in Resources */,
+				1262EDA4718829C99BCACC009116AE99 /* ic_skip@3x.png in Resources */,
+				B1A357717AEB1004662C886BD6F740BA /* overlay_like.png in Resources */,
+				BD4D6D994FFE31704F1A47666D66F4E5 /* overlay_like@3x.png in Resources */,
+				830072C58254799461FC3455D17595C6 /* overlay_skip.png in Resources */,
+				CC75080ED0C58C64AA9E0DFDE0471D24 /* overlay_skip@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA573D537884A43DB34D35135872B58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -715,31 +867,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C215F597FF30EE60207D1165E5503797 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D95E2F7316A4A1A16A74A9418428FE32 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4CAF264BFD1ED9737E4ED59BA26CCAD /* ic_like@2x.png in Resources */,
-				9C02F53390C3E58FFA1D47CA7E54088C /* ic_like@3x.png in Resources */,
-				47FDCEE9A7B04FC6BFD73E33E4753A24 /* ic_skip@2x.png in Resources */,
-				F14CE1CFC1B9E45AC8794AE702AD6A06 /* ic_skip@3x.png in Resources */,
-				58D0229AB96B5B4C4FAF00EC87E5A51E /* overlay_like.png in Resources */,
-				4888443159CFAC6B7CF30D40CEEEE802 /* overlay_like@3x.png in Resources */,
-				9DC2123FA6B3882A1CDC28FC03DCF9D5 /* overlay_skip.png in Resources */,
-				9992D39137F387046A5E2C5ED9DDAD30 /* overlay_skip@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1E929ABB9969155B39675426CC853A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -793,26 +930,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44E7A9B70503685ACDF87099FAA7277B /* Sources */ = {
+		31131560C2DC70A2A6AF0C6D0C558845 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A56A86BE0A1C7F74E5C8D649E8EEAB /* CalendarDayCell.swift in Sources */,
+				FC5CE0F9931E76FE38E6E301EC19210B /* CalendarFlowLayout.swift in Sources */,
+				80E68C5951775453B15FC528CCEA6F62 /* CalendarHeaderView.swift in Sources */,
+				200C954F8B8D72CFDA5F67744DF2FEF7 /* CalendarView+DataSource.swift in Sources */,
+				62D585D67B3934FF26F22F19578CADB6 /* CalendarView+Delegate.swift in Sources */,
+				41CFAD8021D2C70F1C97453A612518FD /* CalendarView+Extensions.swift in Sources */,
+				5D9C3B29FA6E5E5E4B5D05A4B8F42F09 /* CalendarView+Style.swift in Sources */,
+				C8CC098B3CF1478B08137AD23E184E9A /* CalendarView.swift in Sources */,
+				F78E87825E57CBAFCFA72198670FE83B /* EventsManager.swift in Sources */,
+				3F32413FD2F2D30C857511C7ABBF5DE4 /* KDCalendar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49A767DC8E1CC2A2F57714ECD7E716E2 /* Sources */ = {
+		931EE07A07803F291DC27481FE35899A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D76860C1CECA03C1D29C94C6C6058C /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */,
+				15B56245B4B221DA46D6490BB2DBCE07 /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8304A512AF90787774A13664C2F9692 /* Sources */ = {
+		C393F1F23F6987775DDBB6CF5E61B81E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69A658B09E0EAA94E7E6D358270794D /* Pods-TinderDemo-dummy.m in Sources */,
+				D4CE0AB6A580ED1F0999D94DBB63BA12 /* Pods-TinderDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,48 +974,60 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0867B578204D4BE68E1E4D9E19A02185 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TinderSwipeView;
-			target = D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */;
-			targetProxy = E988F6FF42BA783A94071705F9590BE5 /* PBXContainerItemProxy */;
-		};
-		0AE8DA534CAA2AA25B985ACC9EF12B47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = EA3441FC454D909F6E8B4970725CA4B2 /* PBXContainerItemProxy */;
-		};
-		2EC7204F9BD76BA9C795D9479C119E41 /* PBXTargetDependency */ = {
+		04E9D03B98D160ABFA51065F5F00D2CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TinderDemo";
 			target = 7E9303513D388754794A7D4C4C2D18AD /* Pods-TinderDemo */;
-			targetProxy = 2AB27A8F3202D5123105BB150AB845F6 /* PBXContainerItemProxy */;
+			targetProxy = 2358BCE92A6392A9EE89A1933E3C6DAB /* PBXContainerItemProxy */;
 		};
-		500E7FBA1618F31C75734A6D92B07F7F /* PBXTargetDependency */ = {
+		1F3E801377CAAB0F0EE90F5F21769BD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TinderSwipeView-TinderSwipeView";
 			target = 48CF6737F3CCFB614C0F0807088B2AF8 /* TinderSwipeView-TinderSwipeView */;
-			targetProxy = 20C1E2A39AE7F2EAF0ED62EBC1A99901 /* PBXContainerItemProxy */;
+			targetProxy = 88A5F9208D5E7ED10368E8FACE2B84FF /* PBXContainerItemProxy */;
 		};
-		80AA6797F38DBAD00081C2FF6DD058CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 576EBEA045C3DAC57D381F3E83D201AC /* PBXContainerItemProxy */;
-		};
-		812A48695AB453E4586E1B63CBD8B955 /* PBXTargetDependency */ = {
+		2170E5E50B90EC334AA2F68EA349E418 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TinderSwipeView;
 			target = D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */;
-			targetProxy = BC554B75E4F7808069BCF682AF619D42 /* PBXContainerItemProxy */;
+			targetProxy = 541C5C9776A413BB138F687BAD1B37E1 /* PBXContainerItemProxy */;
+		};
+		2A03C127CC00EACD36EBFFF9CB851D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinderSwipeView;
+			target = D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */;
+			targetProxy = 1B128F2EA01E2DD2F3F7A8E0ACAF6AF9 /* PBXContainerItemProxy */;
+		};
+		5DFB0D1043DA8B473320743B70C2DCE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 43C6C4F4D9106BE412E34D368B4CE2F4 /* PBXContainerItemProxy */;
+		};
+		9006FAB1D1F9225F2A1C87BD5C2561EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDCalendar;
+			target = 7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */;
+			targetProxy = E674C706C8D58AD02DF87C40FBE14A92 /* PBXContainerItemProxy */;
+		};
+		AABFE3BC4B8F1C287783900392386396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 1585F458B49085AB1A133A350FB67CDF /* PBXContainerItemProxy */;
+		};
+		DE72FCB55E57F8891283F2AF339A043A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDCalendar;
+			target = 7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */;
+			targetProxy = D78F32ABF6DCA92D03589397080ED48E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		154AA10502CE61442A431DDC1ED5791A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07A094F3E8C6CBB3C80A9AF15AA78736 /* TinderSwipeView.debug.xcconfig */;
+			baseConfigurationReference = A91CDEE59976436D207D19432EC1235E /* TinderSwipeView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -901,26 +1060,116 @@
 			};
 			name = Debug;
 		};
-		17CAAF0A7D3B0FCE87B802BA410CFE78 /* Debug */ = {
+		3D61EFCFFFCB57623C6F26C83BBCA7BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07A094F3E8C6CBB3C80A9AF15AA78736 /* TinderSwipeView.debug.xcconfig */;
+			baseConfigurationReference = 80D962BC5D9A017724E3FA88625798A2 /* KDCalendar.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TinderSwipeView";
-				IBSC_MODULE = TinderSwipeView;
-				INFOPLIST_FILE = "Target Support Files/TinderSwipeView/ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDCalendar/KDCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDCalendar/KDCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TinderSwipeView;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KDCalendar/KDCalendar.modulemap";
+				PRODUCT_MODULE_NAME = KDCalendar;
+				PRODUCT_NAME = KDCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F0702ACDBBD1E8A41AE497EA675BD47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE91E1EF3659641B3ED6AD9A4705D1F /* KDCalendar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDCalendar/KDCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDCalendar/KDCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KDCalendar/KDCalendar.modulemap";
+				PRODUCT_MODULE_NAME = KDCalendar;
+				PRODUCT_NAME = KDCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48779304995560ABB950AA5E2A9AE76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472F0111CA1F109F34315BEA16E3F1DE /* Pods-TinderDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo/Pods-TinderDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo/Pods-TinderDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 		48FD2B4E815CEB933B18D313E9E9EF64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 796027E0E390DFDAE182907D229A00B1 /* Alamofire.release.xcconfig */;
+			baseConfigurationReference = 37968BDB82CFEEE06893DC27EF5EBA16 /* Alamofire.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1019,6 +1268,62 @@
 			};
 			name = Debug;
 		};
+		6CD41F240A739BB0BCA3CF6ECE19BAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91CDEE59976436D207D19432EC1235E /* TinderSwipeView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TinderSwipeView";
+				IBSC_MODULE = TinderSwipeView;
+				INFOPLIST_FILE = "Target Support Files/TinderSwipeView/ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TinderSwipeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7E1B224BF8B21E23F6CACB813153C660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BA45829C1C968E6865E03F5E43DEEE /* Pods-TinderDemo-TinderDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		83223E6924514D8CC5749F1C11425FFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A81249BA9A11580081361093B886CDB6 /* Pods-TinderDemoTests.release.xcconfig */;
@@ -1060,7 +1365,7 @@
 		};
 		AEBF93D6B0BB5D65E1D6D878368257E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5781AF8B47E76C18732617AED9E41844 /* TinderSwipeView.release.xcconfig */;
+			baseConfigurationReference = 20656D965DB34F6EC39BB371C6276BF0 /* TinderSwipeView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1093,6 +1398,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		AFCB477B5B61B917BC104CC5BCD6434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C570AF8A1B8CA9E9468897D65F4E061B /* Pods-TinderDemo-TinderDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B27D9001B58998330914EE1C0527BBF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1132,9 +1475,9 @@
 			};
 			name = Debug;
 		};
-		B46E3A7AD28424E079A08443D216A43D /* Release */ = {
+		CC388D14D6E304783AF8B7A28DFF24D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5781AF8B47E76C18732617AED9E41844 /* TinderSwipeView.release.xcconfig */;
+			baseConfigurationReference = 20656D965DB34F6EC39BB371C6276BF0 /* TinderSwipeView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TinderSwipeView";
@@ -1149,7 +1492,7 @@
 			};
 			name = Release;
 		};
-		D08638E327C197CC72DACFD8B6D9AABE /* Release */ = {
+		DA12230E18E6128BE401DD4622E70B7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62F2A28CD17FFDC7A26037D2F912C52A /* Pods-TinderDemo.release.xcconfig */;
 			buildSettings = {
@@ -1188,47 +1531,9 @@
 			};
 			name = Release;
 		};
-		DA0363604208FA7DBDC471C1D958EFBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C570AF8A1B8CA9E9468897D65F4E061B /* Pods-TinderDemo-TinderDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E73BFB7433831CF292FADF6B2CB7AC3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 121794600EA9A473D6E6BB296430E5DB /* Alamofire.debug.xcconfig */;
+			baseConfigurationReference = C7DA572A5C7C292B68CBE504C07E2EF8 /* Alamofire.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1256,83 +1561,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EAAF6382843E4CF4CFA0FDC9A490A5EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75BA45829C1C968E6865E03F5E43DEEE /* Pods-TinderDemo-TinderDemoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F3E21C3C66C15A892DBA458804AD4D84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 472F0111CA1F109F34315BEA16E3F1DE /* Pods-TinderDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo/Pods-TinderDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo/Pods-TinderDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1402,20 +1630,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0BEBC0503A9F6A0D3E3FDE5AA708BD0B /* Build configuration list for PBXNativeTarget "Pods-TinderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48779304995560ABB950AA5E2A9AE76F /* Debug */,
+				DA12230E18E6128BE401DD4622E70B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133E3A108C9BDF1298CFC9C4829118C5 /* Build configuration list for PBXNativeTarget "KDCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0702ACDBBD1E8A41AE497EA675BD47 /* Debug */,
+				3D61EFCFFFCB57623C6F26C83BBCA7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1C8196BF8C11511EB8C16AD50C08B733 /* Build configuration list for PBXNativeTarget "TinderSwipeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				154AA10502CE61442A431DDC1ED5791A /* Debug */,
 				AEBF93D6B0BB5D65E1D6D878368257E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46375441EFBF91DA6788F16E2EA31611 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA0363604208FA7DBDC471C1D958EFBD /* Debug */,
-				EAAF6382843E4CF4CFA0FDC9A490A5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1429,20 +1666,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B5AF5C8E08D9E087E9F7171FF856CFC /* Build configuration list for PBXNativeTarget "Pods-TinderDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3E21C3C66C15A892DBA458804AD4D84 /* Debug */,
-				D08638E327C197CC72DACFD8B6D9AABE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E73BFB7433831CF292FADF6B2CB7AC3B /* Debug */,
 				48FD2B4E815CEB933B18D313E9E9EF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CF7F81A04756DAFF2E84FE4C198162 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCB477B5B61B917BC104CC5BCD6434D /* Debug */,
+				7E1B224BF8B21E23F6CACB813153C660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1456,11 +1693,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4602C680F5F361A06001640838F9137 /* Build configuration list for PBXNativeTarget "TinderSwipeView-TinderSwipeView" */ = {
+		BF723CE390BAC66206AF3795ACE02D9B /* Build configuration list for PBXNativeTarget "TinderSwipeView-TinderSwipeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17CAAF0A7D3B0FCE87B802BA410CFE78 /* Debug */,
-				B46E3A7AD28424E079A08443D216A43D /* Release */,
+				6CD41F240A739BB0BCA3CF6ECE19BAF1 /* Debug */,
+				CC388D14D6E304783AF8B7A28DFF24D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
