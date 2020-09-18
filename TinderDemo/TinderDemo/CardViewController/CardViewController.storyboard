@@ -46,7 +46,79 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoB-fz-euS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-517" y="-429"/>
+            <point key="canvasLocation" x="-2217" y="145"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="mYt-gV-EiV">
+            <objects>
+                <viewController id="7AH-ac-fce" customClass="MapViewController" customModule="TinderDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VZ8-Ju-kcE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Ykg-Ok-VAW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="icons-place-marker" selectedImage="icons-place-selected" id="T8H-OH-vWk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Sd-OE-I6C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1436" y="145"/>
+        </scene>
+        <!--Phone View Controller-->
+        <scene sceneID="cmf-Q9-mAh">
+            <objects>
+                <viewController id="O2e-1R-ssM" customClass="PhoneViewController" customModule="TinderDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s2P-Te-plj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My phone is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHd-oB-JfC">
+                                <rect key="frame" x="160.5" y="99" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNG-ts-xAY">
+                                <rect key="frame" x="167" y="145" width="80" height="30"/>
+                                <state key="normal" title="09xxxxxxxx"/>
+                                <connections>
+                                    <action selector="touchCalling:" destination="O2e-1R-ssM" eventType="touchUpInside" id="ar5-Aj-E1q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tNG-ts-xAY" firstAttribute="top" secondItem="UHd-oB-JfC" secondAttribute="bottom" constant="25" id="5l8-JL-38X"/>
+                            <constraint firstItem="UHd-oB-JfC" firstAttribute="centerX" secondItem="s2P-Te-plj" secondAttribute="centerX" id="DEZ-9z-L1H"/>
+                            <constraint firstItem="UHd-oB-JfC" firstAttribute="top" secondItem="KIv-Lc-9Wg" secondAttribute="top" constant="55" id="F8Q-n2-Eo9"/>
+                            <constraint firstItem="tNG-ts-xAY" firstAttribute="centerX" secondItem="s2P-Te-plj" secondAttribute="centerX" id="nyJ-Qn-6ze"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KIv-Lc-9Wg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="icons-phone" selectedImage="icons-phone-selected" id="LmU-MA-22M"/>
+                    <connections>
+                        <outlet property="phoneButton" destination="tNG-ts-xAY" id="2Ly-U4-CP6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HzM-H6-1t6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-683" y="145"/>
+        </scene>
+        <!--Lock View Controller-->
+        <scene sceneID="8oF-hm-hcS">
+            <objects>
+                <viewController id="RZA-vx-VlP" customClass="LockViewController" customModule="TinderDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5ua-7j-a2L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="VOh-Cv-yOc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="icons-lock" selectedImage="icons-lock-selected" id="dcl-5Z-MA7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vST-9u-n5j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="145"/>
         </scene>
         <!--User View Controller-->
         <scene sceneID="8kg-PP-N2s">
@@ -129,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T4B-5j-LBY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-517" y="-1077"/>
+            <point key="canvasLocation" x="-2936" y="145"/>
         </scene>
         <!--Card View Controller-->
         <scene sceneID="QLo-FU-CdS">
@@ -146,6 +218,9 @@
                     <connections>
                         <segue destination="wBI-YJ-Rh1" kind="relationship" relationship="viewControllers" id="Lir-VK-j8Y"/>
                         <segue destination="Wui-tx-Axf" kind="relationship" relationship="viewControllers" id="C2w-6O-OM6"/>
+                        <segue destination="7AH-ac-fce" kind="relationship" relationship="viewControllers" id="nF4-if-8LX"/>
+                        <segue destination="O2e-1R-ssM" kind="relationship" relationship="viewControllers" id="sts-lW-usi"/>
+                        <segue destination="RZA-vx-VlP" kind="relationship" relationship="viewControllers" id="JlF-JJ-7g8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nJ7-Uq-eD7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -156,6 +231,12 @@
     <resources>
         <image name="icons-calendar" width="30.5" height="30.5"/>
         <image name="icons-calendar-selected" width="30.5" height="30.5"/>
+        <image name="icons-lock" width="31" height="31"/>
+        <image name="icons-lock-selected" width="31" height="31"/>
+        <image name="icons-phone" width="31" height="31"/>
+        <image name="icons-phone-selected" width="31" height="31"/>
+        <image name="icons-place-marker" width="31" height="31"/>
+        <image name="icons-place-selected" width="31" height="31"/>
         <image name="icons-user-male" width="30.5" height="30.5"/>
         <image name="icons-user-selected" width="30.5" height="30.5"/>
     </resources>
