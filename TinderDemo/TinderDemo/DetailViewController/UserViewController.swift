@@ -16,6 +16,7 @@ class UserViewController: DetailBaseController {
     
     override func viewDidLoad() {
         imageView.imageFromUrl(urlString: userModel.picture)
+        nameLabel.text = userModel.name
     }
 }
 

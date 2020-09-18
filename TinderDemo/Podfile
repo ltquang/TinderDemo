@@ -9,6 +9,9 @@ target 'TinderDemo' do
   pod 'TinderSwipeView'
   pod 'Alamofire'
   pod 'KDCalendar'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'SwiftyJSON'
 
   target 'TinderDemoTests' do
     inherit! :search_paths

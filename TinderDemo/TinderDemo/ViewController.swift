@@ -8,6 +8,7 @@
 
 import UIKit
 import TinderSwipeView
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -17,30 +18,25 @@ class ViewController: UIViewController {
         }
     }
     
-    let userModels : [UserModel] =  {
-        var model : [UserModel] = []
-        for n in 1...30 {
-            let location = LocationModel(latitude: "83.5610",
-                                         longitude: "22.7340",
-                                         address: "ho chi minh, vn")
-            model.append(UserModel(uuid: "1",
-                                   name: "name",
-                                   email: "email",
-                                   dob: "1990-04-17T11:43:53.681Z",
-                                   phone: "123-123",
-                                   cell: "0987-387",
-                                   picture: "https://randomuser.me/api/portraits/women/75.jpg",
-                                   location: location))
-        }
-        return model
-    }()
+    var httpService: HttpServiceProtocol? = nil
+    var userModels : [UserModel] = []
     @IBOutlet weak var viewContainer: UIView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
     override func viewDidAppear(_ animated: Bool) {
+        httpService?.getUser(callBack: callbackGetUsers)
+    }
+    
+    lazy var callbackGetUsers:(([String: Any]?) -> Void) = { (response) -> Void in
+        if let results = response?["results"] as? [[String: Any]] {
+            self.userModels.removeAll()
+            for result in results {
+                self.userModels.append(UserModel(json: result))
+            }
+            self.renderCards()
+        }
+    }
+    
+    func renderCards() {
         let contentView: (Int, CGRect, UserModel) -> (UIView) = { (index: Int ,frame: CGRect , userModel: UserModel) -> (UIView) in
             let cardViewController = UIStoryboard(name: "CardViewController", bundle: nil).instantiateViewController(withIdentifier: "CardViewController") as! CardViewController
             cardViewController.userModel = userModel

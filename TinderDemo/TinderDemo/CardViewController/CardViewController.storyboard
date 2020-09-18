@@ -111,10 +111,34 @@
                     <view key="view" contentMode="scaleToFill" id="5ua-7j-a2L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My cell phone is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Grg-Ac-XCL">
+                                <rect key="frame" x="145" y="99" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aet-hN-6t7">
+                                <rect key="frame" x="184" y="145" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="touchCalling:" destination="RZA-vx-VlP" eventType="touchUpInside" id="3HK-IZ-tn0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aet-hN-6t7" firstAttribute="centerX" secondItem="5ua-7j-a2L" secondAttribute="centerX" id="FiZ-3p-g7I"/>
+                            <constraint firstItem="aet-hN-6t7" firstAttribute="top" secondItem="Grg-Ac-XCL" secondAttribute="bottom" constant="25" id="PYm-nh-5In"/>
+                            <constraint firstItem="Grg-Ac-XCL" firstAttribute="top" secondItem="VOh-Cv-yOc" secondAttribute="top" constant="55" id="Yub-zw-YrI"/>
+                            <constraint firstItem="Grg-Ac-XCL" firstAttribute="centerX" secondItem="5ua-7j-a2L" secondAttribute="centerX" id="b91-mM-RDP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VOh-Cv-yOc"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="icons-lock" selectedImage="icons-lock-selected" id="dcl-5Z-MA7"/>
+                    <connections>
+                        <outlet property="cellPhoneButton" destination="aet-hN-6t7" id="mih-Zq-RPe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vST-9u-n5j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
