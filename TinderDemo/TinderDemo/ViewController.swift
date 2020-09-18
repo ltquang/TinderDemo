@@ -18,8 +18,14 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBOutlet weak var loadMoreButton: UIButton!
     var httpService: HttpServiceProtocol? = nil
     var userModels : [UserModel] = []
+    var favorites : [UserModel] = [] {
+        didSet {
+            print("favorite changed")
+        }
+    }
     @IBOutlet weak var viewContainer: UIView!
 
     override func viewDidAppear(_ animated: Bool) {
@@ -36,22 +42,33 @@ class ViewController: UIViewController {
         }
     }
     
+    lazy var contentView: (Int, CGRect, UserModel) -> (UIView) = { (index: Int ,frame: CGRect , userModel: UserModel) -> (UIView) in
+        let cardViewController = UIStoryboard(name: "CardViewController", bundle: nil).instantiateViewController(withIdentifier: "CardViewController") as! CardViewController
+        cardViewController.userModel = userModel
+        cardViewController.view.translatesAutoresizingMaskIntoConstraints = false
+        cardViewController.view.frame = CGRect(origin: .zero,
+                                               size: CGSize(width: self.viewContainer.bounds.width-20,
+                                                            height: self.viewContainer.bounds.height-50))
+        self.addChild(cardViewController)
+        return cardViewController.view
+    }
+    
     func renderCards() {
-        let contentView: (Int, CGRect, UserModel) -> (UIView) = { (index: Int ,frame: CGRect , userModel: UserModel) -> (UIView) in
-            let cardViewController = UIStoryboard(name: "CardViewController", bundle: nil).instantiateViewController(withIdentifier: "CardViewController") as! CardViewController
-            cardViewController.userModel = userModel
-            cardViewController.view.translatesAutoresizingMaskIntoConstraints = false
-            cardViewController.view.frame = CGRect(origin: .zero,
-                                                   size: CGSize(width: self.viewContainer.bounds.width-20,
-                                                                height: self.viewContainer.bounds.height-50))
-            self.addChild(cardViewController)
-            return cardViewController.view
+        if swipeView != nil {
+            swipeView.removeFromSuperview()
         }
-        
+        loadMoreButton.isHidden = true
         swipeView = TinderSwipeView<UserModel>(frame: viewContainer.bounds, contentView: contentView)
         swipeView.sepeatorDistance = 0
         viewContainer.addSubview(swipeView)
         swipeView.showTinderCards(with: userModels ,isDummyShow: false)
+    }
+    
+    @IBAction func touchLoadMore(_ sender: Any) {
+        self.httpService?.getUser(callBack: callbackGetUsers)
+    }
+    
+    @IBAction func touchOnFavorite(_ sender: Any) {
     }
 }
 
@@ -77,6 +94,7 @@ extension ViewController: TinderSwipeViewDelegate {
     }
     
     func cardGoesRight(model: Any) {
+        favorites.append(model as! UserModel)
         self.children.first?.removeFromParent()
     }
     
@@ -85,6 +103,7 @@ extension ViewController: TinderSwipeViewDelegate {
     }
     
     func endOfCardsReached() {
-        
+        loadMoreButton.isHidden = false
+        swipeView.removeFromSuperview()
     }
 }

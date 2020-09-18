@@ -13,7 +13,7 @@ protocol HttpServiceProtocol {
     func getUser(callBack:@escaping ([String: Any]?) -> Void)
 }
 
-class HttpSevice: HttpServiceProtocol {
+class HttpService: HttpServiceProtocol {
     let baseURL = "https://randomuser.me/api/?results=50"
     
     func getUser(callBack: @escaping ([String : Any]?) -> Void) {

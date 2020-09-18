@@ -39,8 +39,8 @@
 		2252FAE82514478500D4C139 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAE62514478500D4C139 /* MapViewController.swift */; };
 		2252FAEA251447D000D4C139 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAE9251447D000D4C139 /* LockViewController.swift */; };
 		2252FAEB251447D000D4C139 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAE9251447D000D4C139 /* LockViewController.swift */; };
-		2252FAED2514AC3100D4C139 /* HttpSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAEC2514AC3100D4C139 /* HttpSevice.swift */; };
-		2252FAEE2514AC3100D4C139 /* HttpSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAEC2514AC3100D4C139 /* HttpSevice.swift */; };
+		2252FAED2514AC3100D4C139 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAEC2514AC3100D4C139 /* HttpService.swift */; };
+		2252FAEE2514AC3100D4C139 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAEC2514AC3100D4C139 /* HttpService.swift */; };
 		2D531E0110B912B4DD290807 /* Pods_TinderDemo_TinderDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F913F322033904AF78D6672A /* Pods_TinderDemo_TinderDemoUITests.framework */; };
 		A1E17809A71E302938098D0E /* Pods_TinderDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555470A9B8B6E7A0899AAEE9 /* Pods_TinderDemoTests.framework */; };
 		E94E7049A4139EF7411AA810 /* Pods_TinderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1486667E5B8E7CB6A644C9FC /* Pods_TinderDemo.framework */; };
@@ -92,7 +92,7 @@
 		2252FAE32514475F00D4C139 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 		2252FAE62514478500D4C139 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2252FAE9251447D000D4C139 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
-		2252FAEC2514AC3100D4C139 /* HttpSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpSevice.swift; sourceTree = "<group>"; };
+		2252FAEC2514AC3100D4C139 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		453A0A946A9D83F30A37B82A /* Pods-TinderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TinderDemoTests/Pods-TinderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		555470A9B8B6E7A0899AAEE9 /* Pods_TinderDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D1FF8D96840FDBDA6D71A7 /* Pods-TinderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderDemo.debug.xcconfig"; path = "Target Support Files/Pods-TinderDemo/Pods-TinderDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 			children = (
 				2252FAD72513699B00D4C139 /* UIViewExtensions.swift */,
 				2252FADA251369B300D4C139 /* UIImageExtension.swift */,
-				2252FAEC2514AC3100D4C139 /* HttpSevice.swift */,
+				2252FAEC2514AC3100D4C139 /* HttpService.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -533,7 +533,7 @@
 				2252FA99251221A000D4C139 /* ViewController.swift in Sources */,
 				2252FAD82513699B00D4C139 /* UIViewExtensions.swift in Sources */,
 				2252FAE12513B3CE00D4C139 /* CalendarViewController.swift in Sources */,
-				2252FAED2514AC3100D4C139 /* HttpSevice.swift in Sources */,
+				2252FAED2514AC3100D4C139 /* HttpService.swift in Sources */,
 				2252FA95251221A000D4C139 /* AppDelegate.swift in Sources */,
 				2252FAEA251447D000D4C139 /* LockViewController.swift in Sources */,
 				2252FACD2512635000D4C139 /* CardViewController.swift in Sources */,
@@ -553,7 +553,7 @@
 			files = (
 				2252FAC7251262D200D4C139 /* UserModel.swift in Sources */,
 				2252FACA251262EE00D4C139 /* LocationModel.swift in Sources */,
-				2252FAEE2514AC3100D4C139 /* HttpSevice.swift in Sources */,
+				2252FAEE2514AC3100D4C139 /* HttpService.swift in Sources */,
 				2252FAAC251221A300D4C139 /* TinderDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
