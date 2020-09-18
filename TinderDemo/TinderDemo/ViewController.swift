@@ -102,6 +102,10 @@ extension ViewController: TinderSwipeViewDelegate {
     }
     
     func cardGoesLeft(model: Any) {
+        if let user = model as? UserModel,
+        favoriteManager.getFavorite().contains(user) {
+            favoriteManager.removeFavorite(user: user)
+        }
         self.children.first?.removeFromParent()
     }
     
