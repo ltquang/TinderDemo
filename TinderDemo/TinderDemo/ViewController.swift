@@ -19,15 +19,13 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var loadMoreButton: UIButton!
-    var httpService: HttpServiceProtocol? = nil
+    var httpService: HttpServiceProtocol!
+    var favoriteManager: FavoriteManager!
     var userModels : [UserModel] = []
-    var favorites : [UserModel] = [] {
-        didSet {
-            print("favorite changed")
-        }
-    }
+    
     @IBOutlet weak var viewContainer: UIView!
 
+    @IBOutlet weak var favoriteLabel: UILabel!
     override func viewDidAppear(_ animated: Bool) {
         httpService?.getUser(callBack: callbackGetUsers)
     }
@@ -53,7 +51,7 @@ class ViewController: UIViewController {
         return cardViewController.view
     }
     
-    func renderCards() {
+    func renderCards(showFavorite: Bool = false) {
         if swipeView != nil {
             swipeView.removeFromSuperview()
         }
@@ -61,14 +59,28 @@ class ViewController: UIViewController {
         swipeView = TinderSwipeView<UserModel>(frame: viewContainer.bounds, contentView: contentView)
         swipeView.sepeatorDistance = 0
         viewContainer.addSubview(swipeView)
-        swipeView.showTinderCards(with: userModels ,isDummyShow: false)
+        swipeView.showTinderCards(with: showFavorite ? favoriteManager.getFavorite() : userModels ,isDummyShow: false)
+    }
+    
+    func showAlert(title: String, errorMsg: String) {
+        let alert = UIAlertController(title: title, message: errorMsg, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func touchLoadMore(_ sender: Any) {
+        favoriteLabel.isHidden = true
         self.httpService?.getUser(callBack: callbackGetUsers)
     }
     
     @IBAction func touchOnFavorite(_ sender: Any) {
+        if favoriteManager.getFavorite().isEmpty {
+            showAlert(title: "Favorite", errorMsg:
+            "You don't have favorited data now")
+        } else {
+            favoriteLabel.isHidden = false
+            renderCards(showFavorite: true)
+        }
     }
 }
 
@@ -94,7 +106,9 @@ extension ViewController: TinderSwipeViewDelegate {
     }
     
     func cardGoesRight(model: Any) {
-        favorites.append(model as! UserModel)
+        if let user = model as? UserModel {
+            favoriteManager.appendFavorite(user: user)
+        }
         self.children.first?.removeFromParent()
     }
     

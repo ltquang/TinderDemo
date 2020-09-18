@@ -94,6 +94,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your favorite is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HN-Kf-HuI">
+                                <rect key="frame" x="150.5" y="104" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -113,7 +119,9 @@
                             <constraint firstItem="UkU-e2-0cD" firstAttribute="top" secondItem="Zen-Sz-FiM" secondAttribute="bottom" id="WDB-X1-76L"/>
                             <constraint firstItem="bJC-Dz-J0z" firstAttribute="bottom" secondItem="Zen-Sz-FiM" secondAttribute="top" constant="150" id="XBg-Af-dKS"/>
                             <constraint firstItem="UkU-e2-0cD" firstAttribute="bottom" secondItem="Zen-Sz-FiM" secondAttribute="bottom" constant="5" id="YBh-Ra-yJk"/>
+                            <constraint firstItem="4HN-Kf-HuI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ys6-Iz-Wxm"/>
                             <constraint firstItem="UkU-e2-0cD" firstAttribute="trailing" secondItem="Zen-Sz-FiM" secondAttribute="trailing" constant="-10" id="alN-EB-8dD"/>
+                            <constraint firstItem="4HN-Kf-HuI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="b3X-d5-Tkg"/>
                             <constraint firstItem="0dg-Ie-7x9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="gtR-hj-xep"/>
                             <constraint firstItem="93K-M5-eev" firstAttribute="bottom" secondItem="Zen-Sz-FiM" secondAttribute="top" constant="120" id="kzI-ID-5Pj"/>
                             <constraint firstItem="93K-M5-eev" firstAttribute="leading" secondItem="Zen-Sz-FiM" secondAttribute="leading" constant="-10" id="mdT-J0-Szz"/>
@@ -125,8 +133,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="favoriteLabel" destination="4HN-Kf-HuI" id="sIZ-3E-BMB"/>
                         <outlet property="loadMoreButton" destination="XZR-O1-LXy" id="ZrQ-OW-Rur"/>
-                        <outlet property="viewContainer" destination="Zen-Sz-FiM" id="BgE-JH-hke"/>
+                        <outlet property="viewContainer" destination="Zen-Sz-FiM" id="cDd-9o-Gkt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
