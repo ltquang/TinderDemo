@@ -17,6 +17,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9F-2K-NUY">
                                 <rect key="frame" x="20" y="56" width="72" height="72"/>
+                                <accessibility key="accessibilityConfiguration" identifier="loadMoreButtonTop"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="bLq-1h-V13"/>
                                     <constraint firstAttribute="width" constant="72" id="vae-NB-FQ2"/>
@@ -28,6 +29,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dg-Ie-7x9">
                                 <rect key="frame" x="322" y="56" width="72" height="72"/>
+                                <accessibility key="accessibilityConfiguration" identifier="favButton"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="1Pg-Tf-oOf"/>
                                     <constraint firstAttribute="height" constant="72" id="R76-og-d5m"/>
@@ -74,6 +76,7 @@
                                 <subviews>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZR-O1-LXy">
                                         <rect key="frame" x="97" y="287" width="140" height="30"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="loadMoreButton"/>
                                         <state key="normal" title="Load more card now"/>
                                         <connections>
                                             <action selector="touchLoadMore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jRW-ei-iPr"/>
@@ -81,6 +84,7 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <accessibility key="accessibilityConfiguration" identifier="viewContainer"/>
                                 <constraints>
                                     <constraint firstItem="XZR-O1-LXy" firstAttribute="centerX" secondItem="Zen-Sz-FiM" secondAttribute="centerX" id="bye-HE-Qq9"/>
                                     <constraint firstItem="XZR-O1-LXy" firstAttribute="centerY" secondItem="Zen-Sz-FiM" secondAttribute="centerY" id="mbp-La-dls"/>
@@ -96,6 +100,7 @@
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your favorite is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HN-Kf-HuI">
                                 <rect key="frame" x="150.5" y="104" width="113" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="yourFavLabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

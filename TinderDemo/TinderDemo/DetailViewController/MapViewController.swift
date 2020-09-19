@@ -24,6 +24,8 @@ class MapViewController: DetailBaseController {
                                               zoom: 1.0)
         let mapView = GMSMapView.map(withFrame: self.view.frame, camera: camera)
         mapView.settings.scrollGestures = false
+        mapView.accessibilityIdentifier = "myMapView"
+        mapView.accessibilityElementsHidden = false
         self.view.addSubview(mapView)
 
         // Creates a marker in the center of the map.
@@ -32,6 +34,7 @@ class MapViewController: DetailBaseController {
                                                  longitude: CLLocationDegrees(longtitude))
         marker.title = userModel.location.address
         marker.snippet = userModel.location.address
+        marker.accessibilityLabel = "myMarker"
         marker.map = mapView
     }
 }

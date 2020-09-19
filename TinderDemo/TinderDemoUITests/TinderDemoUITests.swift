@@ -23,13 +23,145 @@ class TinderDemoUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testUserScreen() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        XCTAssertTrue(app.buttons["loadMoreButtonTop"].exists)
+        XCTAssertTrue(app.buttons["favButton"].exists)
+        XCTAssertTrue(app.otherElements["viewContainer"].exists)
+        XCTAssertTrue(app.images["avatar"].waitForExistence(timeout: 90))
+        XCTAssertTrue(app.staticTexts["myNameIs"].exists)
+        XCTAssertTrue(app.staticTexts["fullName"].exists)
+        
+        let tabBarsQuery = app.otherElements["viewContainer"].children(matching: .other).element.children(matching: .other).element(boundBy: 2).tabBars
+        XCTAssertTrue(tabBarsQuery.children(matching: .button).element(boundBy: 0).exists)
+        XCTAssertTrue(tabBarsQuery.children(matching: .button).element(boundBy: 1).exists)
+        XCTAssertTrue(tabBarsQuery.children(matching: .button).element(boundBy: 2).exists)
+        XCTAssertTrue(tabBarsQuery.children(matching: .button).element(boundBy: 3).exists)
+        XCTAssertTrue(tabBarsQuery.children(matching: .button).element(boundBy: 4).exists)
+    }
+    
+    func testCalendarScreen() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let tabBarsQuery = app.otherElements["viewContainer"].children(matching: .other).element.children(matching: .other).element(boundBy: 2).tabBars
+        let _ = app.images["avatar"].waitForExistence(timeout: 90)
+        tabBarsQuery.buttons.element(boundBy: 1).tap()
+        
+        XCTAssertTrue(app.staticTexts["myBirthdayIs"].exists)
+        XCTAssertTrue(app.otherElements["myCalendar"].exists)
+    }
+    
+    func testMapScreen() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let tabBarsQuery = app.otherElements["viewContainer"].children(matching: .other).element.children(matching: .other).element(boundBy: 2).tabBars
+        let _ = app.images["avatar"].waitForExistence(timeout: 90)
+        tabBarsQuery.buttons.element(boundBy: 2).tap()
+        XCTAssertTrue(app.otherElements["myMapView"].waitForExistence(timeout: 90))
+    }
+    
+    func testPhoneScreen() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let tabBarsQuery = app.otherElements["viewContainer"].children(matching: .other).element.children(matching: .other).element(boundBy: 2).tabBars
+        let _ = app.images["avatar"].waitForExistence(timeout: 90)
+        tabBarsQuery.buttons.element(boundBy: 3).tap()
+        
+        XCTAssertTrue(app.staticTexts["myPhoneIs"].exists)
+        XCTAssertTrue(app.buttons["phoneButton"].exists)
+    }
+    
+    func testLockScreen() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let tabBarsQuery = app.otherElements["viewContainer"].children(matching: .other).element.children(matching: .other).element(boundBy: 2).tabBars
+        let _ = app.images["avatar"].waitForExistence(timeout: 90)
+        tabBarsQuery.buttons.element(boundBy: 4).tap()
+        
+        XCTAssertTrue(app.staticTexts["myCellPhoneIs"].exists)
+        XCTAssertTrue(app.buttons["cellPhoneButton"].exists)
+    }
+    
+    func testSwipeRight() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let viewContainer = app.otherElements["viewContainer"]
+        XCTAssertTrue(app.staticTexts["fullName"].waitForExistence(timeout: 90))
+        let fullNameQuery = app.staticTexts.matching(identifier: "fullName")
+        let topName = fullNameQuery.element(boundBy: 2).label
+        viewContainer.swipeRight()
+        let secondName = fullNameQuery.element(boundBy: 2).label
+        XCTAssertTrue(topName != secondName)
+    }
+    
+    func testSwipeLeft() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let viewContainer = app.otherElements["viewContainer"]
+        XCTAssertTrue(app.staticTexts["fullName"].waitForExistence(timeout: 90))
+        let fullNameQuery = app.staticTexts.matching(identifier: "fullName")
+        let topName = fullNameQuery.element(boundBy: 2).label
+        viewContainer.swipeLeft()
+        let secondName = fullNameQuery.element(boundBy: 2).label
+        XCTAssertTrue(topName != secondName)
+    }
+    
+    func testLoadMore() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        XCTAssertTrue(app.staticTexts["fullName"].waitForExistence(timeout: 90))
+        let fullNameQuery = app.staticTexts.matching(identifier: "fullName")
+        let topName = fullNameQuery.element(boundBy: 2).label
+        app.buttons["loadMoreButtonTop"].firstMatch.tap()
+        sleep(2)
+        XCTAssertTrue(app.staticTexts["fullName"].waitForExistence(timeout: 90))
+        let secondName = fullNameQuery.element(boundBy: 2).label
+        XCTAssertTrue(topName != secondName)
+    }
+    
+    func testFavorite() throws {
+        let app = XCUIApplication()
+        app.launch()
+        let viewContainer = app.otherElements["viewContainer"]
+        app.buttons["favButton"].firstMatch.tap()
+        if app.alerts.element.staticTexts["You don't have favorited data now"].exists {
+            app.alerts.buttons["OK"].tap()
+        } else {
+            while(app.staticTexts["fullName"].exists) {
+                viewContainer.swipeLeft()
+                sleep(1)
+            }
+        }
+        
+        app.buttons["loadMoreButtonTop"].firstMatch.tap()
+        sleep(2)
+        XCTAssertTrue(app.staticTexts["fullName"].waitForExistence(timeout: 90))
+        viewContainer.swipeRight()
+        sleep(1)
+        viewContainer.swipeRight()
+        sleep(1)
+        viewContainer.swipeRight()
+        XCTAssertTrue(app.staticTexts["fullName"].waitForExistence(timeout: 90))
+        XCTAssertEqual(app.staticTexts.matching(identifier: "fullName").count, 3)
+        let fullNameQuery = app.staticTexts.matching(identifier: "fullName")
+        let topName = fullNameQuery.element(boundBy: 2).label
+        app.buttons["favButton"].firstMatch.tap()
+        sleep(2)
+        XCTAssertTrue(app.staticTexts["fullName"].waitForExistence(timeout: 90))
+        let secondName = fullNameQuery.element(boundBy: 2).label
+        XCTAssertTrue(topName != secondName)
+        app.buttons["favButton"].firstMatch.tap()
+        while(app.staticTexts["fullName"].exists) {
+            viewContainer.swipeLeft()
+            sleep(1)
+        }
+        
     }
 
     func testLaunchPerformance() throws {

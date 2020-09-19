@@ -32,9 +32,9 @@
 		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAC9A39550874E918AEFDFD4425FA82 /* HTTPMethod.swift */; };
 		018228C4760DF4F8B80630BC9ACCB39E /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB31F57FF14D0E53CF8646DDC4C15EA0 /* DSL.swift */; };
 		02DD7FC6A855D0675EA8B3BE66C99BBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0823FEDB709329DDE3DC3C91706F673 /* XCTest.framework */; };
+		04073D621828A88FEAED3DF6A7FB4934 /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49DC9B81794DADC2156BA9CFEC08CA /* Pods-TinderDemo-TinderDemoUITests-dummy.m */; };
 		0892D14FE7A3452423E9129D7917664B /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BD2FD575823A062EE49DD35540F0D3 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		092256E303520E50ADEFF25EEB4E73EE /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 59679C628D036C4717F7DB1C6D91EBBB /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A05100B8C17F170E6A7B0D7A76495A2 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E26002B3609BF22663AC094CB576F69 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029018600FAB648F2039F5BF3A7A65DB /* Combine.swift */; };
 		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7D8C95B55C2535FD0008AFB8066798 /* OperationQueue+Alamofire.swift */; };
 		10C8810E574F925B5CD3449B6DBE6EC0 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC0000079C5864102FAC8CD4F25B55C /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,6 +70,7 @@
 		39133A7716CEDEB690A7DA9D12C45C4D /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D61EF4278B07ECA89A00ADFF4F729EC /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		39382B0A1EF090D15BA6C89FC3DCB099 /* QuickTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C88233ED5A2F8EA397B803117792B9A /* QuickTestObservation.swift */; };
 		3BD0C370BBCEBDEA68B8EDBD969370EB /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4101837521F005587023B76759D8468A /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C1B6A888CFCCD8B46B4CFABDC1FE520 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E26002B3609BF22663AC094CB576F69 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D6A581E79FD9EAC1A948D8BC53F1EB0 /* QuickConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD72471DDAA234D15622A5618524FD /* QuickConfiguration.swift */; };
 		3F32413FD2F2D30C857511C7ABBF5DE4 /* KDCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EC6798AA9A3BB9C90C6DD9A84BBF73 /* KDCalendar-dummy.m */; };
 		41CFAD8021D2C70F1C97453A612518FD /* CalendarView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5423EBF257128C45FCDAE1A60F0ED365 /* CalendarView+Extensions.swift */; };
@@ -98,6 +99,7 @@
 		5B6F70DDD4C63CF6ED95291BCB633494 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708E37BF20CE879F5BE7385A5AB7893 /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		5D9C3B29FA6E5E5E4B5D05A4B8F42F09 /* CalendarView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C81ACECD48701F5C8CEF311DF10FEA /* CalendarView+Style.swift */; };
 		602E3758C0EF64AF6B7FCEA05BF5B9B9 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F442EEBB2499DCED49C3C36983988A5 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		61867794A48273F6EC86268676A86BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84F5580E4787856FFC1FF3954E096D /* Foundation.framework */; };
 		62ABDE7579EFE9A7000301E8C464BD27 /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EF22E9CF22935AE3123CB2E7E35FB4 /* overlay_skip@3x.png */; };
 		62AF872D9B16C9715670A089EEF32DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84F5580E4787856FFC1FF3954E096D /* Foundation.framework */; };
 		62D585D67B3934FF26F22F19578CADB6 /* CalendarView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EF046BDB3751D46D8B3F4EE9C0E747 /* CalendarView+Delegate.swift */; };
@@ -115,7 +117,6 @@
 		7536DD99ACEDE673713161E597B7B447 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD756924C3939CB1750B3AB4B25BE9 /* ExampleHooks.swift */; };
 		76E7C7CDAA543C791A714B991F595F2B /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFBF55C39358D96304AF7ABA335C66E /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		78A51B7FCC1DFB888AAA254529013C12 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2D6FCF96771686DE81C19EC4245DCA /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		7A870B2191D7087C29F2BFE6ABB2B22B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E84F5580E4787856FFC1FF3954E096D /* Foundation.framework */; };
 		7AC93EB6DCDA9226165D5BC354FE7BC6 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9694B49F8E3EA9A1FC9103837B86E /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD191D7AA7670CD9B4FF93E5D82F01 /* SwiftyJSON.swift */; };
 		7CE6049975894E447F2D4071C74F6F8F /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D200471F616FFC55D64D8B98EDDA51 /* Callsite.swift */; };
@@ -134,7 +135,6 @@
 		8D543DAD9A6C0B8BF8A5DB38AD876677 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0661F4EE5C6CF55D4EBC15A18CD5B8 /* SatisfyAnyOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		8D75EC8969EA46FBD6E1BED7791A3C37 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB575D0DCA2C4AA9D2012DBACC2CA3E /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		8E4A2F4A1EF16B63817A516CC2743619 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 268D59ADEF6AA59B9D6AFE261D7EF4D2 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90BA92735E55A593FE64721938FFCBE5 /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A49DC9B81794DADC2156BA9CFEC08CA /* Pods-TinderDemo-TinderDemoUITests-dummy.m */; };
 		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6452C1B38752E8742C510D42D1B386D9 /* ResponseSerialization.swift */; };
 		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B81E11965FAAFE6B3439D768BA1A9 /* HTTPHeaders.swift */; };
 		9231B70907F130F31CF5717C502B780C /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91630155BD13E6B4D666C4A1A5472DC /* ExampleGroup.swift */; };
@@ -255,13 +255,6 @@
 			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
 			remoteInfo = SwiftyJSON;
 		};
-		3340E8B71D7DA2C28B14B77980F0D44F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
-			remoteInfo = Quick;
-		};
 		33D9203501036EE6BFC8B93FF291B6DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -269,12 +262,19 @@
 			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
 			remoteInfo = Quick;
 		};
-		46BB90995B69615A008CFAF1CB6C14C9 /* PBXContainerItemProxy */ = {
+		401946203AF16D86169882C3B896DEF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
-			remoteInfo = GooglePlaces;
+			remoteGlobalIDString = 7BB7A4D260FDCE05D3AB31199589BBE5;
+			remoteInfo = KDCalendar;
+		};
+		5803800A765FF136E47501B7D4ECC678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
 		};
 		622BA6178D1E5621A453DF37CA495182 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -282,27 +282,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D7F092F2CAB7938B95539F1B9897A5CE;
 			remoteInfo = TinderSwipeView;
-		};
-		72AE94905148B97A678D2B4F0608D80E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7F092F2CAB7938B95539F1B9897A5CE;
-			remoteInfo = TinderSwipeView;
-		};
-		74451598726BBEE9876AE00A28C73A0F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F13695E06195A78EA8A95F8C7ED0D2F;
-			remoteInfo = Nimble;
-		};
-		75381E1068ABDBE7D23C9C803448DF79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BB7A4D260FDCE05D3AB31199589BBE5;
-			remoteInfo = KDCalendar;
 		};
 		7D8EE183834D70CB66D638C17C73C8D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -318,12 +297,12 @@
 			remoteGlobalIDString = 7E9303513D388754794A7D4C4C2D18AD;
 			remoteInfo = "Pods-TinderDemo";
 		};
-		88478EDCF1898A6B6BB893C8922E1EE8 /* PBXContainerItemProxy */ = {
+		8196924C4F62175B6FE4429A648668F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
-			remoteInfo = GoogleMaps;
+			remoteGlobalIDString = D7F092F2CAB7938B95539F1B9897A5CE;
+			remoteInfo = TinderSwipeView;
 		};
 		8D3A592AF093BD899E51DDF0C52D68E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -339,19 +318,26 @@
 			remoteGlobalIDString = 48CF6737F3CCFB614C0F0807088B2AF8;
 			remoteInfo = "TinderSwipeView-TinderSwipeView";
 		};
-		92DFD6719053E128A455905CCA6F4922 /* PBXContainerItemProxy */ = {
+		94513D4E35F64CEC2870DEEEFC46122E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		BDC8833218B5469AFE78496D98BFACE9 /* PBXContainerItemProxy */ = {
+		A9CDBA510A066DBB08540C412525F123 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		B3428F3798BF2ED2ABAB6646EAFC4638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
 		};
 		DA4A180EE82CAAF81E9D15E2666C59B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -635,6 +621,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D1AD9246A8D0C5C03035564DF57D33B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61867794A48273F6EC86268676A86BAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50AD8B5FC883A5DE3189AB3A85E7CFF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -648,14 +642,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB9CC9267297D8104141A4046AAD14E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6DF99CBB9CDB0AC81BD432BEF3D97905 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A870B2191D7087C29F2BFE6ABB2B22B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1248,6 +1234,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0311B643688457401CE28E8890C6C0E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1B6A888CFCCD8B46B4CFABDC1FE520 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32360CCAA4FCC506AF7C1068761B7604 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1269,14 +1263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48320761F0F0B0CD7C8223B2D2288459 /* Pods-TinderDemoTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4844417B8EF16A1FC412A479C3EB95CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A05100B8C17F170E6A7B0D7A76495A2 /* Pods-TinderDemo-TinderDemoUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1355,24 +1341,22 @@
 		};
 		656162205903E42E29E5B55549259D09 /* Pods-TinderDemo-TinderDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7EE45F6C9BD34D6B5D8806AAC5D0637 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */;
+			buildConfigurationList = 9CC20811808B195B85C97F0D67C90DF4 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */;
 			buildPhases = (
-				4844417B8EF16A1FC412A479C3EB95CD /* Headers */,
-				D3D2C7E476496E99A675A29CCC926BA3 /* Sources */,
-				6DF99CBB9CDB0AC81BD432BEF3D97905 /* Frameworks */,
-				35C5CF559D041AE85D946D9B93A124CA /* Resources */,
+				0311B643688457401CE28E8890C6C0E0 /* Headers */,
+				80E6798D182F96EBDC45CE30D212BDB4 /* Sources */,
+				2D1AD9246A8D0C5C03035564DF57D33B /* Frameworks */,
+				DC3874422385E575F698432753D5B695 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				558E55AD79AFC2B15FF5BF3CE66244ED /* PBXTargetDependency */,
-				2461F7DA0C5E59F4CD063F812FE17A6F /* PBXTargetDependency */,
-				2E9F18E52B65CD391A3F26DD574E7BFC /* PBXTargetDependency */,
-				94D7197628A7C7C049A001CE928B6DAB /* PBXTargetDependency */,
-				C79734A6F1D8E25DA2FF49276886C805 /* PBXTargetDependency */,
-				D619909E321098034D854362C2CCC9BB /* PBXTargetDependency */,
-				15A33F85117A17BE7CB61278217750CA /* PBXTargetDependency */,
-				9D250CA8F3ADED3EBAEA1C4DF405F6C2 /* PBXTargetDependency */,
+				D4E1EC362C83A034BBFF6DB828DFFD98 /* PBXTargetDependency */,
+				A4D71932525DCF17AAB37BFE0A20722C /* PBXTargetDependency */,
+				E54B6E9D9623493CB5DD9835DAC37616 /* PBXTargetDependency */,
+				58B3075A783D7171302707117B0B96D1 /* PBXTargetDependency */,
+				6FBB433ED6BBDA7EB27D9BBCA55C64D4 /* PBXTargetDependency */,
+				D564E08F029C9A7DA8C70BC2DD2AB009 /* PBXTargetDependency */,
 			);
 			name = "Pods-TinderDemo-TinderDemoUITests";
 			productName = "Pods-TinderDemo-TinderDemoUITests";
@@ -1609,13 +1593,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35C5CF559D041AE85D946D9B93A124CA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E8F68D7A4F3E1BFC6636DA8E7366E05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1653,6 +1630,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D7EBE1F47ACC336A60ED6056AF3261E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3874422385E575F698432753D5B695 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1792,6 +1776,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80E6798D182F96EBDC45CE30D212BDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04073D621828A88FEAED3DF6A7FB4934 /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A15F7F39E396E2AEACF83D5AF269F361 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1869,14 +1861,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D2C7E476496E99A675A29CCC926BA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90BA92735E55A593FE64721938FFCBE5 /* Pods-TinderDemo-TinderDemoUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1886,29 +1870,11 @@
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
 			targetProxy = 8D3A592AF093BD899E51DDF0C52D68E7 /* PBXContainerItemProxy */;
 		};
-		15A33F85117A17BE7CB61278217750CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = BDC8833218B5469AFE78496D98BFACE9 /* PBXContainerItemProxy */;
-		};
 		1856B8F5C43BDE71CFFE523B970C9584 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleMaps;
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
 			targetProxy = 0BAF886261CB77724009D8B2FD7B71EE /* PBXContainerItemProxy */;
-		};
-		2461F7DA0C5E59F4CD063F812FE17A6F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleMaps;
-			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = 88478EDCF1898A6B6BB893C8922E1EE8 /* PBXContainerItemProxy */;
-		};
-		2E9F18E52B65CD391A3F26DD574E7BFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GooglePlaces;
-			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = 46BB90995B69615A008CFAF1CB6C14C9 /* PBXContainerItemProxy */;
 		};
 		5325DB15C391BCEDA48FB367EADB2095 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1916,17 +1882,23 @@
 			target = 48CF6737F3CCFB614C0F0807088B2AF8 /* TinderSwipeView-TinderSwipeView */;
 			targetProxy = 9223158BB38C10D760A1A3BA0A48109F /* PBXContainerItemProxy */;
 		};
-		558E55AD79AFC2B15FF5BF3CE66244ED /* PBXTargetDependency */ = {
+		58B3075A783D7171302707117B0B96D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 92DFD6719053E128A455905CCA6F4922 /* PBXContainerItemProxy */;
+			name = KDCalendar;
+			target = 7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */;
+			targetProxy = 401946203AF16D86169882C3B896DEF0 /* PBXContainerItemProxy */;
 		};
 		696F836C2C2A7197591B98EB872A6536 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quick;
 			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
 			targetProxy = 33D9203501036EE6BFC8B93FF291B6DA /* PBXContainerItemProxy */;
+		};
+		6FBB433ED6BBDA7EB27D9BBCA55C64D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 5803800A765FF136E47501B7D4ECC678 /* PBXContainerItemProxy */;
 		};
 		90C1044E4F71C0E11E23A3C9D07551BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1940,17 +1912,11 @@
 			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
 			targetProxy = 2D0A07E42AB925973537D520CA7845AF /* PBXContainerItemProxy */;
 		};
-		94D7197628A7C7C049A001CE928B6DAB /* PBXTargetDependency */ = {
+		A4D71932525DCF17AAB37BFE0A20722C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KDCalendar;
-			target = 7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */;
-			targetProxy = 75381E1068ABDBE7D23C9C803448DF79 /* PBXContainerItemProxy */;
-		};
-		9D250CA8F3ADED3EBAEA1C4DF405F6C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TinderSwipeView;
-			target = D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */;
-			targetProxy = 72AE94905148B97A678D2B4F0608D80E /* PBXContainerItemProxy */;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = B3428F3798BF2ED2ABAB6646EAFC4638 /* PBXContainerItemProxy */;
 		};
 		A8875517694FD878525B593537ED50E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1970,29 +1936,35 @@
 			target = D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */;
 			targetProxy = 622BA6178D1E5621A453DF37CA495182 /* PBXContainerItemProxy */;
 		};
-		C79734A6F1D8E25DA2FF49276886C805 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Nimble;
-			target = 6F13695E06195A78EA8A95F8C7ED0D2F /* Nimble */;
-			targetProxy = 74451598726BBEE9876AE00A28C73A0F /* PBXContainerItemProxy */;
-		};
 		CB4CC7AEB63A87E955E4A1AC990D01BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TinderDemo";
 			target = 7E9303513D388754794A7D4C4C2D18AD /* Pods-TinderDemo */;
 			targetProxy = 7F47A01C2D4FE3D941F2FF01BFDFBE66 /* PBXContainerItemProxy */;
 		};
-		D619909E321098034D854362C2CCC9BB /* PBXTargetDependency */ = {
+		D4E1EC362C83A034BBFF6DB828DFFD98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Quick;
-			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
-			targetProxy = 3340E8B71D7DA2C28B14B77980F0D44F /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 94513D4E35F64CEC2870DEEEFC46122E /* PBXContainerItemProxy */;
+		};
+		D564E08F029C9A7DA8C70BC2DD2AB009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinderSwipeView;
+			target = D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */;
+			targetProxy = 8196924C4F62175B6FE4429A648668F3 /* PBXContainerItemProxy */;
 		};
 		DB2137A4ED0B68692B417F89860B6E10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GooglePlaces;
 			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
 			targetProxy = 01FD769FCF0E33D0B302C6FE6D10BC0B /* PBXContainerItemProxy */;
+		};
+		E54B6E9D9623493CB5DD9835DAC37616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = A9CDBA510A066DBB08540C412525F123 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2224,6 +2196,44 @@
 			};
 			name = Release;
 		};
+		361E925E99EF990528449A951DACC405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDCD532780E7BAE15165A1A1349A436 /* Pods-TinderDemo-TinderDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3CAEB18B12A784F45A414632804EBAB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C411416034A3E88CE700136E59BE6713 /* Pods-TinderDemoTests.debug.xcconfig */;
@@ -2449,44 +2459,6 @@
 			};
 			name = Debug;
 		};
-		83B4A2A098DF743DA33723CAF42BB7B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FDCD532780E7BAE15165A1A1349A436 /* Pods-TinderDemo-TinderDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TinderDemo-TinderDemoUITests/Pods-TinderDemo-TinderDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F4A212B2047072C6794D2D1B2EF1423 /* GoogleMaps.release.xcconfig */;
@@ -2504,7 +2476,7 @@
 			};
 			name = Release;
 		};
-		99C6347054FAD1ACC33BB9741714FAC5 /* Release */ = {
+		A8682936DC9D5E57109B33430446F784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01AED9FA3851BB03F92C653FE2DA0D86 /* Pods-TinderDemo-TinderDemoUITests.release.xcconfig */;
 			buildSettings = {
@@ -2967,11 +2939,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7EE45F6C9BD34D6B5D8806AAC5D0637 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */ = {
+		9CC20811808B195B85C97F0D67C90DF4 /* Build configuration list for PBXNativeTarget "Pods-TinderDemo-TinderDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83B4A2A098DF743DA33723CAF42BB7B5 /* Debug */,
-				99C6347054FAD1ACC33BB9741714FAC5 /* Release */,
+				361E925E99EF990528449A951DACC405 /* Debug */,
+				A8682936DC9D5E57109B33430446F784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

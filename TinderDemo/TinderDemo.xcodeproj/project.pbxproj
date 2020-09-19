@@ -18,7 +18,6 @@
 		2252FAC9251262EE00D4C139 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAC8251262EE00D4C139 /* LocationModel.swift */; };
 		2252FACD2512635000D4C139 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FACC2512635000D4C139 /* CardViewController.swift */; };
 		2252FAD02512638300D4C139 /* CardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2252FACF2512638200D4C139 /* CardViewController.storyboard */; };
-		2252FAD12512638300D4C139 /* CardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2252FACF2512638200D4C139 /* CardViewController.storyboard */; };
 		2252FAD42513695900D4C139 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAD32513695900D4C139 /* UserViewController.swift */; };
 		2252FAD82513699B00D4C139 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FAD72513699B00D4C139 /* UIViewExtensions.swift */; };
 		2252FADB251369B300D4C139 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252FADA251369B300D4C139 /* UIImageExtension.swift */; };
@@ -379,7 +378,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2252FAD12512638300D4C139 /* CardViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

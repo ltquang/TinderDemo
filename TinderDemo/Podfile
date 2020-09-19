@@ -22,8 +22,7 @@ target 'TinderDemo' do
 
   target 'TinderDemoUITests' do
     # Pods for testing
-    pod 'Quick'
-    pod 'Nimble'
+    
   end
 
 end
