@@ -36,6 +36,6 @@ struct UserModel: Equatable, Codable {
         self.phone = jsonParse["phone"].string ?? "0"
         self.cell = jsonParse["cell"].string ?? "0"
         self.picture = jsonParse["picture"]["large"].string ?? ""
-        self.location = LocationModel.init(json: json["location"] as! Dictionary<String, Any>)
+        self.location = LocationModel.init(json: json["location", default: ["":""]] as! Dictionary<String, Any>)
     }
 }

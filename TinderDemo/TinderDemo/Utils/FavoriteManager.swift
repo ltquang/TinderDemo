@@ -18,8 +18,15 @@ class FavoriteManager {
     private init(){}
     
     private var favorites: [UserModel]? = nil
+    private var fileName: String = "data.json"
+    
+    func setupSaveFileName(file: String) {
+        fileName = file
+    }
+    
     func getFavorite() -> [UserModel] {
         if favorites == nil {
+            favorites = []
             readJSON()
         }
         return favorites!
@@ -49,11 +56,10 @@ class FavoriteManager {
         let documentsDirectoryPathString = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
         let documentsDirectoryPath = NSURL(string: documentsDirectoryPathString)!
 
-        guard let url = documentsDirectoryPath.appendingPathComponent("data.json")  else {
+        guard let url = documentsDirectoryPath.appendingPathComponent(fileName)  else {
             return
         }
         if let dataArray = NSArray(contentsOf: URL(string: "file://\(url.absoluteString)")!) as? [Data] {
-            favorites = []
             dataArray.forEach { (rawdata) in
                 let decoder = JSONDecoder()
                 if let data = try? decoder.decode(UserModel.self, from: rawdata) {
@@ -68,7 +74,7 @@ class FavoriteManager {
         let documentsDirectoryPathString = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
         let documentsDirectoryPath = NSURL(string: documentsDirectoryPathString)!
 
-        guard let url = documentsDirectoryPath.appendingPathComponent("data.json") else {
+        guard let url = documentsDirectoryPath.appendingPathComponent(fileName) else {
             throw FavoriteError.runtimeError("File not found!")
         }
         let fileManager = FileManager.default
