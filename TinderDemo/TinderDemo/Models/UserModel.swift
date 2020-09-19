@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-struct UserModel: Equatable {
+struct UserModel: Equatable, Codable {
     
     let uuid: String!
     let name : String!

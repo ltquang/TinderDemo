@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-struct LocationModel {
+struct LocationModel: Codable {
     let latitude: String!
     let longitude: String!
     let address: String!

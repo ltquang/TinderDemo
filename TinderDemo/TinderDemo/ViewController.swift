@@ -37,6 +37,8 @@ class ViewController: UIViewController {
                 self.userModels.append(UserModel(json: result))
             }
             self.renderCards()
+        } else {
+            self.showAlert(title: "Error", errorMsg: "Can not connect to server")
         }
     }
     
@@ -86,19 +88,19 @@ class ViewController: UIViewController {
 
 extension ViewController: TinderSwipeViewDelegate {
     func dummyAnimationDone() {
-        
+
     }
-    
+
     func currentCardStatus(card: Any, distance: CGFloat) {
-        
+
     }
-    
+
     func fallbackCard(model: Any) {
-        
+
     }
-    
+
     func didSelectCard(model: Any) {
-        
+
     }
     
     func cardGoesLeft(model: Any) {
