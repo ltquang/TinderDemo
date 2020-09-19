@@ -10,6 +10,8 @@ PODS:
   - KDCalendar (1.8.9):
     - KDCalendar/EventManager (= 1.8.9)
   - KDCalendar/EventManager (1.8.9)
+  - Nimble (8.1.2)
+  - Quick (3.0.0)
   - SwiftyJSON (5.0.0)
   - TinderSwipeView (1.1.8)
 
@@ -18,6 +20,8 @@ DEPENDENCIES:
   - GoogleMaps
   - GooglePlaces
   - KDCalendar
+  - Nimble
+  - Quick
   - SwiftyJSON
   - TinderSwipeView
 
@@ -27,6 +31,8 @@ SPEC REPOS:
     - GoogleMaps
     - GooglePlaces
     - KDCalendar
+    - Nimble
+    - Quick
     - SwiftyJSON
     - TinderSwipeView
 
@@ -35,9 +41,11 @@ SPEC CHECKSUMS:
   GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
   GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
   KDCalendar: a587bc486b992d82ef94bd04001fce9baf45e518
+  Nimble: 3864815b4703c7ebffba875973c70e854489fbae
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
 
-PODFILE CHECKSUM: 5c5996488283505cb09c3736aa4bb66bae33efdb
+PODFILE CHECKSUM: 9886b2a55eb0ef4bbfdb120e2a920daa726f9a8c
 
 COCOAPODS: 1.9.3

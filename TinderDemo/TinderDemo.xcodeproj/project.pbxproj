@@ -274,6 +274,7 @@
 				2252FAA3251221A300D4C139 /* Sources */,
 				2252FAA4251221A300D4C139 /* Frameworks */,
 				2252FAA5251221A300D4C139 /* Resources */,
+				0092E9A2813EBDD536D18AEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -379,6 +380,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0092E9A2813EBDD536D18AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderDemoTests/Pods-TinderDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderDemoTests/Pods-TinderDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinderDemoTests/Pods-TinderDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0C991DCD8369D539777C2137 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
